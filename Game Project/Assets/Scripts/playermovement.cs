@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
+    // Calls controller script
     public CharacterController2D controller;
+
+    // Calls the animator
     public Animator animator;
 
+    // Speed variables
     public float runSpeed = 40f;
-
     float horizontalMove = 0f;
 
     bool jump = false;
+    bool jumpJetpack = false;
     bool crouch = false;
 
     // Update is called once per frame
@@ -48,7 +52,7 @@ public class playermovement : MonoBehaviour
     private void FixedUpdate()
     {
         // Move the character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump, jumpJetpack);
         jump = false;
     }
 }
