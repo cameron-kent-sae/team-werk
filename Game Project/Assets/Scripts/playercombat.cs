@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playercombat : MonoBehaviour
 {
-    public Animator animator;
+    // public Animator animator;
 
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -21,8 +21,9 @@ public class playercombat : MonoBehaviour
     void Update()
     {
         // Looking for the attack button to be pressed
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("attack"))
         {
+            Debug.Log("attack!");
             Attack();
         }
     }

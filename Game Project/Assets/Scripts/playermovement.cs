@@ -8,7 +8,7 @@ public class playermovement : MonoBehaviour
     public CharacterController2D controller;
 
     // Calls the animator
-    public Animator animator;
+    // public Animator animator;
 
     // Speed variables
     public float runSpeed = 40f;
@@ -23,36 +23,41 @@ public class playermovement : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-        animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+        // animator.SetFloat("speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            animator.SetBool("isJumping", true);
+            // animator.SetBool("isJumping", true);
         }
-        if (Input.GetButtonDown("Crouch"))
+        if (Input.GetButtonDown("Jetpack"))
+        {
+            jumpJetpack = true;
+        }
+        /* if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
         }
         else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
-        }
+        }*/
     }
 
     public void OnLanding()
     {
-        animator.SetBool("isJumping", false);
+        // animator.SetBool("isJumping", false);
     }
 
     public void OnCrouching(bool isCrouching)
     {
-        animator.SetBool("isCrouching", isCrouching);
+        // animator.SetBool("isCrouching", isCrouching);
     }
     private void FixedUpdate()
     {
         // Move the character
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump, jumpJetpack);
         jump = false;
+        jumpJetpack = false;
     }
 }
