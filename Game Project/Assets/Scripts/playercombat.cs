@@ -23,8 +23,8 @@ public class playercombat : MonoBehaviour
         // Looking for the attack button to be pressed
         if (Input.GetButtonDown("attack"))
         {
-            Debug.Log("attack!");
             Attack();
+            Debug.Log("attack!");
         }
     }
 
