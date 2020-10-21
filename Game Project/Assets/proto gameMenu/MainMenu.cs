@@ -11,9 +11,9 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
         //Find the menu buttons and add listeners to click
-        startBtn = GameObject.Find("Button_Start").GetComponent<Button>();
-        optionsBtn = GameObject.Find("Button_Options").GetComponent<Button>();
-        quitBtn = GameObject.Find("Button_Quit").GetComponent<Button>();
+        startBtn = GameObject.Find("Start").GetComponent<Button>();
+        optionsBtn = GameObject.Find("Options").GetComponent<Button>();
+        quitBtn = GameObject.Find("Quit").GetComponent<Button>();
 
         startBtn.onClick.AddListener(StartGame);
         optionsBtn.onClick.AddListener(StartOptions);
@@ -37,4 +37,5 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
 }
