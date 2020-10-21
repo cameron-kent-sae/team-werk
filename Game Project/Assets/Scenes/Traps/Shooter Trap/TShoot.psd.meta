@@ -32,6 +32,18 @@ TextureImporter:
   - first:
       213: -2997162047244256652
     second: TShoot_0
+  - first:
+      213: 4939448897653876615
+    second: TShoot_9
+  - first:
+      213: -6403395231252111717
+    second: TShoot_10
+  - first:
+      213: 6819095746808434440
+    second: TShoot_11
+  - first:
+      213: -564777264432228892
+    second: TShoot_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -209,7 +221,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,7 +242,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,6 +250,27 @@ TextureImporter:
       bones: []
       spriteID: f72a328d283fe1830800000000000000
       internalID: 4043937258722796159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TShoot_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d44e9bdd8a6aa9c0800000000000000
+      internalID: -3915199768537709355
       vertices: []
       indices: 
       edges: []
