@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/proto gameMenu/p_MainMenu.unity
+    guid: 3cc51e32ad8ab6443a720f80711a53b3
+  - enabled: 1
+    path: Assets/proto gameMenu/p_LoadMenu.unity
+    guid: f1fa4e5c10da69542b8f7832b55777e1
+  - enabled: 1
+    path: Assets/proto gameMenu/p_OptionsMenu.unity
+    guid: 07ad50686d0474d418419ee1fc297970
   m_configObjects: {}
