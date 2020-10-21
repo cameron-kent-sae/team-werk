@@ -11,17 +11,20 @@ public class playermovement : MonoBehaviour
     // public Animator animator;
 
     // Speed variables
-    public float runSpeed = 40f;
-    float horizontalMove = 0f;
+    public float walkSpeed = 40f;
+    private float runSpeed = 0f;
+    private float movementSpeed;
+    private float horizontalMove = 0f;
 
-    bool jump = false;
-    bool jumpJetpack = false;
-    bool crouch = false;
+    private bool jump = false;
+    private bool jumpJetpack = false;
+    private bool crouch = false;
 
     // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        movementSpeed = walkSpeed + runSpeed;
+        horizontalMove = Input.GetAxisRaw("Horizontal") * movementSpeed;
 
         // animator.SetFloat("speed", Mathf.Abs(horizontalMove));
 
@@ -34,14 +37,14 @@ public class playermovement : MonoBehaviour
         {
             jumpJetpack = true;
         }
-        /* if (Input.GetButtonDown("Crouch"))
+        if (Input.GetButtonDown("Run"))
         {
-            crouch = true;
+            runSpeed = 40f;
         }
-        else if (Input.GetButtonUp("Crouch"))
+        else if (Input.GetButtonUp("Run"))
         {
-            crouch = false;
-        }*/
+            runSpeed = 0f;
+        }
     }
 
     public void OnLanding()
