@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tilemap
   - Trap
+  - Damage
   layers:
   - Default
   - TransparentFX

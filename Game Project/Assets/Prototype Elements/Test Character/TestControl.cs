@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class TestControl : MonoBehaviour
 {
+
+    public float health = 1;
+
     public float speed;
     public float jumpForce;
     private float moveInput;
@@ -72,6 +75,11 @@ public class TestControl : MonoBehaviour
             Filp();
         }
 
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     void Filp()
@@ -82,5 +90,12 @@ public class TestControl : MonoBehaviour
         transform.localScale = Scaler;
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Damage"))
+        {
+            health -= 1;
+        }
+    }
 
 }
