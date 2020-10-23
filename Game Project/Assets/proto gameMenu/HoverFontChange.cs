@@ -10,14 +10,14 @@ public class HoverFontChange : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         Debug.Log("OnPointerEnter Called");
 
-        gameObject.GetComponentInChildren<TMP_Text>().font = Resources.Load<TMP_FontAsset>("8-bit Arcade Out");
+        gameObject.GetComponentInChildren<TMP_Text>().font = Resources.Load<TMP_FontAsset>("dogicapixelbold");
         //gameObject.GetComponent<TMP_Text>().font = Resources.Load<TMP_FontAsset>("8-bit Arcade Out");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         Debug.Log("OnPointerExit Called");
-        gameObject.GetComponentInChildren<TMP_Text>().font = Resources.Load<TMP_FontAsset>("8-bit Arcade In");
+        gameObject.GetComponentInChildren<TMP_Text>().font = Resources.Load<TMP_FontAsset>("dogicapixelbold");
         //gameObject.GetComponent<TMP_Text>().font = Resources.Load<TMP_FontAsset>("8-bit Arcade In");
     }
 }
