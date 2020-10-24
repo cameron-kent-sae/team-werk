@@ -128,27 +128,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1763828653, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
-      propertyPath: m_Points.Array.data[1].x
-      value: -0.27066422
-      objectReference: {fileID: 0}
-    - target: {fileID: 1763828653, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
-      propertyPath: m_Points.Array.data[1].y
-      value: -0.49940038
-      objectReference: {fileID: 0}
-    - target: {fileID: 1763828653, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
-      propertyPath: m_Points.Array.data[2].y
-      value: -0.49950385
-      objectReference: {fileID: 0}
-    - target: {fileID: 1763828653, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
-      propertyPath: m_Points.Array.data[2].x
-      value: 0.2833352
-      objectReference: {fileID: 0}
     - target: {fileID: 8981594358157760710, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: m_Name
       value: Test Character
       objectReference: {fileID: 0}
+    - target: {fileID: 8981594358157760711, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
+        type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1470618776}
     - target: {fileID: 8981594358157760716, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -957,7 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc353f53865fb98418cf2707d39002d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trigger: 0
+  Triggered: 0
   animator: {fileID: 1063610209}
   waitToFinish: 1
 --- !u!61 &1063610207
@@ -973,7 +962,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.5942786}
+  m_Offset: {x: 0, y: -0.5841019}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -984,7 +973,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.17823172}
+  m_Size: {x: 1, y: 0.19858503}
   m_EdgeRadius: 0
 --- !u!60 &1063610208
 PolygonCollider2D:
@@ -1111,7 +1100,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1470618776}
-  - component: {fileID: 1470618775}
   m_Layer: 0
   m_Name: Spawn
   m_TagString: Untagged
@@ -1119,20 +1107,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1470618775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470618774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80d1b9252421de8468b09b370b76662f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 8981594358157760710, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
-  spawns: {fileID: 1470618776}
 --- !u!4 &1470618776
 Transform:
   m_ObjectHideFlags: 0
@@ -1141,7 +1115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470618774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.494777, y: -0.5, z: 0}
+  m_LocalPosition: {x: -4.52, y: -1.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1159,8 +1133,8 @@ GameObject:
   - component: {fileID: 1920960806}
   - component: {fileID: 1920960805}
   - component: {fileID: 1920960808}
-  - component: {fileID: 1920960809}
   - component: {fileID: 1920960810}
+  - component: {fileID: 1920960809}
   m_Layer: 0
   m_Name: Spike 2
   m_TagString: Damage
@@ -1296,7 +1270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc353f53865fb98418cf2707d39002d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trigger: 1
+  Triggered: 1
   animator: {fileID: 1920960805}
   waitToFinish: 0
 --- !u!61 &1920960810

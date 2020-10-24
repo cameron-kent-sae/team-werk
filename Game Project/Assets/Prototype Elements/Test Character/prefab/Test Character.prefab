@@ -200,6 +200,7 @@ MonoBehaviour:
   speed: 5
   jumpForce: 2
   animator: {fileID: 8981594358157760715}
+  spawn: {fileID: 0}
   jumpVelocity: 6.5
   isGrounded: 0
   groundCheck: {fileID: 8981594356401332297}

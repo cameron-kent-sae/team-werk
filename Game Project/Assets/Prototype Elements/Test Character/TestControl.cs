@@ -11,6 +11,7 @@ public class TestControl : MonoBehaviour
     public float jumpForce;
     private float moveInput;
     public Animator animator;
+    public Transform spawn;
 
 
     [Range(1, 10)]
@@ -77,7 +78,8 @@ public class TestControl : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            gameObject.transform.position = spawn.position;
+            health = 1;
         }
 
     }
