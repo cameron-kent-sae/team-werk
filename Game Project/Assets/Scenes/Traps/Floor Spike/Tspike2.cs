@@ -23,8 +23,8 @@ public class Tspike2 : MonoBehaviour
     }
 
     //when player stand on that tile, trap animation -> trigger
-    //**Another collider actived by the animation which take damage to the player 
-    void OnCollisionStay2D(Collision2D other)
+    //**click Box collider "Is Trigger" for trigger, input finish time if the trap is trigger type
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {

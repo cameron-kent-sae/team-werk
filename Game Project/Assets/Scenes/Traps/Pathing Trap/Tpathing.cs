@@ -22,17 +22,6 @@ public class Tpathing : MonoBehaviour
     }
 
 
-    //Kill on touched
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("kill");
-            Destroy(other.gameObject);
-
-        }
-    }
-
 
     void Update()
     {

@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 8981594358157760713}
   - component: {fileID: 8981594358157760712}
   - component: {fileID: 8981594358157760711}
-  - component: {fileID: 1763828653}
   m_Layer: 0
   m_Name: Test Character
   m_TagString: Player
@@ -144,7 +143,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8981594358157760710}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: ae53828a07d035847991f3663b62b5cd, type: 2}
   m_IsTrigger: 0
@@ -162,7 +161,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.6250901, y: 0.93819094}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.01
 --- !u!50 &8981594358157760712
 Rigidbody2D:
   serializedVersion: 4
@@ -209,27 +208,3 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483648
   facingRight: 1
---- !u!68 &1763828653
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8981594358157760710}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: ae53828a07d035847991f3663b62b5cd, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.31453466, y: -0.49119186}
-  - {x: -0.27997875, y: -0.49846888}
-  - {x: 0.2814722, y: -0.4985726}
-  - {x: 0.29132938, y: -0.49465084}
-  - {x: 0.31151724, y: 0.43758082}
-  - {x: -0.31468344, y: 0.44118392}
-  - {x: -0.3165388, y: -0.44342184}
-  - {x: -0.31720567, y: -0.48707175}

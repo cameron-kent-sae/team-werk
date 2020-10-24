@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 459002650}
   m_Layer: 0
   m_Name: Trap
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,7 +213,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1177,7 +1177,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1470618776}
-  - component: {fileID: 1470618775}
   m_Layer: 0
   m_Name: Spawn
   m_TagString: Untagged
@@ -1185,20 +1184,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1470618775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470618774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80d1b9252421de8468b09b370b76662f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 8981594358157760710, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
-  spawns: {fileID: 1470618776}
 --- !u!4 &1470618776
 Transform:
   m_ObjectHideFlags: 0
@@ -1207,7 +1192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470618774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.494777, y: -0.5, z: 0}
+  m_LocalPosition: {x: -4.494777, y: -1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1227,7 +1212,7 @@ GameObject:
   - component: {fileID: 1491421608}
   m_Layer: 0
   m_Name: Trap
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,7 +1241,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1508,6 +1493,21 @@ PrefabInstance:
       propertyPath: jumpVelocity
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8981594358157760711, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
+        type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1470618776}
+    - target: {fileID: 8981594358157760713, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981594358157760713, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
+        type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 8981594358157760716, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1563,5 +1563,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1763828653, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9607b07bcf9b73c40af1aed0a5d508e4, type: 3}

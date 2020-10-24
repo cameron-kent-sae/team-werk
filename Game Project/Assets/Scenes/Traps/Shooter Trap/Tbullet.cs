@@ -5,30 +5,23 @@ using UnityEngine;
 public class Tbullet : MonoBehaviour
 {
 
-    Rigidbody2D rb;
-    public Vector2 dir = new Vector2(0, 0);
+    public Rigidbody2D rb;
+    public float bulletSpeed;
 
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb.velocity = transform.right * bulletSpeed;
     }
 
 
-    void FixedUpdate()
-    {
-        //object move, base on variable  
-        rb.velocity = dir;
-    }
 
-
-    // kill player on touched 
-    void OnTriggerEnter2D(Collider2D other)
+    // Destroy when hitting the tilemap 
+    void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Tilemap")|| other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("kill");
-            Destroy(other.gameObject);
+            Destroy(gameObject);
 
         }
     }

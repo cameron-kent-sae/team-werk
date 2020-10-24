@@ -46,7 +46,7 @@ public class Tai1 : MonoBehaviour
         {
             Retune();
         }
-        if (wallInfo.collider == true && wallInfo.collider.gameObject.CompareTag("Trap"))
+        if (wallInfo.collider == true && wallInfo.collider.gameObject.CompareTag("AI"))
         {
             Retune();
         }
@@ -71,14 +71,4 @@ public class Tai1 : MonoBehaviour
         }
     }
 
-    // kill player on touched 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("kill");
-            Destroy(other.gameObject);
-
-        }
-    }
 }

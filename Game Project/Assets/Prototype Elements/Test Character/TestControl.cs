@@ -92,9 +92,11 @@ public class TestControl : MonoBehaviour
         transform.localScale = Scaler;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+
+    void OnCollisionEnter2D(Collision2D other)
+    //void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Damage"))
+        if (other.gameObject.CompareTag("Damage") || other.gameObject.CompareTag("AI"))
         {
             health -= 1;
         }
