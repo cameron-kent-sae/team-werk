@@ -10,7 +10,7 @@ public class OptionsMenu : MonoBehaviour
 
     private void Start()
     {
-        returnBtn = GameObject.Find("Button_Return").GetComponent<Button>();
+        returnBtn = GameObject.Find("MenuButton_Return").GetComponent<Button>();
 
         returnBtn.onClick.AddListener(ReturnMain);
     }
