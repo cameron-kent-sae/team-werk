@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class TabGroup : MonoBehaviour
 {
     public List<TabButton> tabButtons;
-
-    //can use sprites or colors etc
+    public List<GameObject> objectsToSwap;
     public Sprite tabIdle;
     public Sprite tabHover;
     public Sprite tabActive;
@@ -39,9 +38,28 @@ public class TabGroup : MonoBehaviour
 
     public void OnTabSelected(TabButton button)
     {
+        if(selectedTab != null)
+        {
+            selectedTab.Deselect();
+        }
+
         selectedTab = button;
+        selectedTab.Select();
+
         ResetTabs();
         button.background.sprite = tabActive;
+
+        int index = button.transform.GetSiblingIndex();
+        for(int i = 0; i < objectsToSwap.Count; i++)
+        {
+            if (i == index)
+            {
+                objectsToSwap[i].SetActive(true);
+            } else
+            {
+                objectsToSwap[i].SetActive(false);
+            }
+        }
     }
 
     public void ResetTabs()
@@ -52,4 +70,7 @@ public class TabGroup : MonoBehaviour
             button.background.sprite = tabIdle;
         }
     }
+
+    //Button input support
+
 }
