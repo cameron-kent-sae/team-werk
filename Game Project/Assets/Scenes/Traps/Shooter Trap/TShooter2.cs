@@ -1,0 +1,39 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TShooter2 : MonoBehaviour
+{
+    public Transform shootPoint;  //shooting point
+    public GameObject bullet; //bullet Object
+
+    private float time = 0;
+
+    [Range(0, 5)]
+    public float bulletDelay; //Delay time
+
+    public bool fromRight = false; //filp the trap's direction
+    public bool shoot; //trigger trap or keep to shoot
+
+    void Start()
+    {
+        //using to filp the trap and the bullet direction
+        if (fromRight == true)
+        {
+            transform.Rotate(0f, 180f, 0f);
+        }
+    }
+
+    void Update()
+    {
+        //Instantiaste the bullet if shoot in true
+        if (shoot == true)
+        {
+            if (time < Time.time)
+            {
+                Instantiate(bullet, shootPoint.position, shootPoint.rotation);
+                time = Time.time + bulletDelay; //bullet delay time
+            }
+        }
+    }
+}

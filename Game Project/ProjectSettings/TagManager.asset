@@ -8,6 +8,7 @@ TagManager:
   - Trap
   - Damage
   - AI
+  - Wall
   layers:
   - Default
   - TransparentFX
