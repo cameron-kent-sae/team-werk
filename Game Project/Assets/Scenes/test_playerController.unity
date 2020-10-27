@@ -130,7 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 229903855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: roof check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 477298074}
   - component: {fileID: 477298073}
   m_Layer: 9
-  m_Name: New Sprite
+  m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,7 +412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 863778728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: grapple point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863778727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3889505, y: 3.0033674, z: -2.1878636}
+  m_LocalPosition: {x: -0.92, y: 1.81, z: -2.1878636}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999685531}
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 1134113823}
   - component: {fileID: 1134113822}
   - component: {fileID: 1134113825}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +829,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1443588754}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floor check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,6 +849,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1999685531}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1475855689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475855690}
+  m_Layer: 8
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475855690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475855689}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.26999998, y: 0.9599999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1999685531}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723825499
 GameObject:
@@ -913,6 +943,7 @@ GameObject:
   - component: {fileID: 1999685535}
   - component: {fileID: 1999685537}
   - component: {fileID: 1999685536}
+  - component: {fileID: 1999685538}
   m_Layer: 8
   m_Name: player
   m_TagString: Untagged
@@ -971,7 +1002,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 1079
   m_GroundCheck: {fileID: 1443588754}
   m_CeilingCheck: {fileID: 229903855}
   m_CrouchDisableCollider: {fileID: 0}
@@ -1040,13 +1071,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999685526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7010494, y: -0.21336737, z: -0.601469}
+  m_LocalPosition: {x: -0.39, y: -0.44, z: -0.601469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 268716877}
   - {fileID: 229903855}
   - {fileID: 1443588754}
   - {fileID: 863778728}
+  - {fileID: 1475855690}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1080,7 +1112,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1999685526}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 17c2066ea9e870c44bb303d835df752e, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1096,7 +1128,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1999685526}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 17c2066ea9e870c44bb303d835df752e, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1126,12 +1158,12 @@ DistanceJoint2D:
   m_ConnectedRigidBody: {fileID: 1134113822}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
+  m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.7010494, y: -0.21336737}
+  m_ConnectedAnchor: {x: -0.39, y: -0.44}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
-  m_MaxDistanceOnly: 0
+  m_MaxDistanceOnly: 1
 --- !u!114 &1999685536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,7 +1176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 555e7bca37587b84d98c33970a31773f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whipTarget: {fileID: 863778728}
+  grappleIndication: {fileID: 1999685538}
   whipRenderer: {fileID: 1999685537}
   distanceJoint: {fileID: 1999685535}
   mainCamera: {fileID: 519420031}
@@ -1245,3 +1277,21 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &1999685538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999685526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c956443dd20b1948803353c5b5a2c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grappleRope: {fileID: 1999685536}
+  firePoint: {fileID: 1475855690}
+  grappleTarget: {fileID: 863778728}
+  grapplePoint: {x: 0, y: 0}
+  maxDistnace: 20
+  grappleRange: 0.5

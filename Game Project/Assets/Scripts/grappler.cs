@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class grappler : MonoBehaviour
 {
-    public Transform whipTarget;
+    public grappleIndicator grappleIndication;
     public LineRenderer whipRenderer;
     public DistanceJoint2D distanceJoint;
     public Camera mainCamera;
@@ -21,10 +21,9 @@ public class grappler : MonoBehaviour
     {
         if (Input.GetButtonDown("Grapple"))
         {
-            Vector2 mousePos = (Vector2)mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            whipRenderer.SetPosition(0, mousePos);
-            whipRenderer.SetPosition(1, transform.position);
-            distanceJoint.connectedAnchor = mousePos;
+            whipRenderer.SetPosition(0, grappleIndication.firePoint.position);
+            whipRenderer.SetPosition(1, grappleIndication.grapplePoint);
+            distanceJoint.connectedAnchor = grappleIndication.grapplePoint;
             distanceJoint.enabled = true;
             whipRenderer.enabled = true;
         }
@@ -32,10 +31,11 @@ public class grappler : MonoBehaviour
         {
             distanceJoint.enabled = false;
             whipRenderer.enabled = false;
+            //grappleIndication.grappleRope.enabled = false;
         }
         if (distanceJoint.enabled)
         {
-            whipRenderer.SetPosition(1, transform.position);
+            whipRenderer.SetPosition(0, grappleIndication.firePoint.position);
         }
     }
 }
