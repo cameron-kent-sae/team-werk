@@ -8,6 +8,7 @@ public class grappler : MonoBehaviour
     public LineRenderer whipRenderer;
     public DistanceJoint2D distanceJoint;
     public Camera mainCamera;
+    public Transform firePoint;
     
     // Start is called before the first frame update
     void Start()
@@ -21,9 +22,9 @@ public class grappler : MonoBehaviour
     {
         if (Input.GetButtonDown("Grapple"))
         {
-            whipRenderer.SetPosition(0, grappleIndication.firePoint.position);
-            whipRenderer.SetPosition(1, grappleIndication.grapplePoint);
-            distanceJoint.connectedAnchor = grappleIndication.grapplePoint;
+            whipRenderer.SetPosition(0, firePoint.position);
+            whipRenderer.SetPosition(1, grappleIndication.grapplePoint.position);
+            distanceJoint.connectedAnchor = grappleIndication.grapplePoint.position;
             distanceJoint.enabled = true;
             whipRenderer.enabled = true;
         }
@@ -31,11 +32,11 @@ public class grappler : MonoBehaviour
         {
             distanceJoint.enabled = false;
             whipRenderer.enabled = false;
-            //grappleIndication.grappleRope.enabled = false;
+            grappleIndication.grappleRope.enabled = false;
         }
         if (distanceJoint.enabled)
         {
-            whipRenderer.SetPosition(0, grappleIndication.firePoint.position);
+            whipRenderer.SetPosition(0, firePoint.position);
         }
     }
 }
