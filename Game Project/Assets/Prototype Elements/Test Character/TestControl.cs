@@ -5,9 +5,9 @@ using UnityEngine;
 public class TestControl : MonoBehaviour
 {
     public float speed;
-    public float jumpForce;
     private float moveInput;
     public Animator animator;
+    public int health = 1;
 
 
     [Range(1, 10)]
@@ -17,6 +17,8 @@ public class TestControl : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
+
+    public Transform spawn;
 
     private Rigidbody2D rb;
 
@@ -72,6 +74,12 @@ public class TestControl : MonoBehaviour
             Filp();
         }
 
+        if (health <= 0)
+        {
+            //Destroy(gameObject);
+            gameObject.transform.position = spawn.position;
+            health = 1;
+        }
     }
 
     void Filp()
@@ -82,5 +90,11 @@ public class TestControl : MonoBehaviour
         transform.localScale = Scaler;
     }
 
-
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Damage") || other.gameObject.CompareTag("AI"))
+        {
+            health -= 1;
+        }
+    }
 }

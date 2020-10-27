@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Tilemap
   - Trap
+  - Wall
+  - AI
+  - Damage
   layers:
   - Default
   - TransparentFX
