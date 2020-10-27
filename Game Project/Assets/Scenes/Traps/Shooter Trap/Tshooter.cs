@@ -38,7 +38,7 @@ public class Tshooter : MonoBehaviour
     }
 
     //Trigger the trap by the player when enter the collision , exit to switch off
-    //This is the parent boject collider
+    //Turn off the collision if it is a timed type
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))

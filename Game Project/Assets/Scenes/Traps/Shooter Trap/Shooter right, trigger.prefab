@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3269107164042151061}
   - component: {fileID: 3269107164042151062}
   - component: {fileID: 3269107164042151059}
-  - component: {fileID: -5388190602194366450}
   m_Layer: 0
   m_Name: Shooter right, trigger
   m_TagString: Untagged
@@ -94,7 +93,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3269107164042151063}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: caf1f2ff4c6bd38469e29a8960652bec, type: 3}
   m_Name: 
@@ -130,23 +129,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.008967, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-5388190602194366450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3269107164042151063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bdcbc34220915469c29e3c84d6f434, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shootPoint: {fileID: 3269107164298460438}
-  bullet: {fileID: 9091465427227698446, guid: cdea4c14af346d34192a7836fc1babed, type: 3}
-  bulletDelay: 2
-  fromRight: 1
-  shoot: 1
 --- !u!1 &3269107164298460439
 GameObject:
   m_ObjectHideFlags: 0
