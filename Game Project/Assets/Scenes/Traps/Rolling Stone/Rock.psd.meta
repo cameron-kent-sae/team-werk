@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: f2d74c5cf5e6b6f4599e58cebed25bb3
+guid: e968daf2d0a1e034cae868e781dca94e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399011212269539787
-    second: Stone_0
+      213: 3452003437791708593
+    second: Rock_0
   - first:
-      213: -6471164996032937220
-    second: Stone_1
+      213: 709247535313551666
+    second: Rock_1
   - first:
-      213: -2685253163611956912
-    second: Stone_2
+      213: 1013366739975189944
+    second: Rock_2
+  - first:
+      213: 8234320154294349295
+    second: Rock_3
+  - first:
+      213: -8452671437627377638
+    second: Rock_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -96,7 +102,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone_0
+      name: Rock_0
       rect:
         serializedVersion: 2
         x: 5
@@ -104,14 +110,35 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc159db92384f8470800000000000000
-      internalID: 8399011212269539787
+      spriteID: 1b5800156daf7ef20800000000000000
+      internalID: 3452003437791708593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 68
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2318f2820e0c7d900800000000000000
+      internalID: 709247535313551666
       vertices: []
       indices: 
       edges: []

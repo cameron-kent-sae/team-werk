@@ -21,7 +21,6 @@ public class Tbullet : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Tilemap")|| other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Wall"))
         {
-            print("test");
             Destroy(gameObject);
 
         }

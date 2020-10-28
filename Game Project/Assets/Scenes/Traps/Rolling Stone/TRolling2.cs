@@ -11,7 +11,6 @@ public class TRolling2 : MonoBehaviour
 
     public bool isGrounded;
     public Transform hitGround;
-    public float landed = 1;
     public LayerMask whatIsGround;
     public float checkRadius;
 
