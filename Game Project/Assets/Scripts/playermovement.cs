@@ -4,22 +4,19 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
-    // Calls controller script
+    // Calls scripts
     public CharacterController2D controller;
     public grappler grappleRope;
-
-    // Calls the animator
-    // public Animator animator;
 
     // Creating transform points
     public Transform grapplePoint;
 
-    // Speed variables
+    // Movement variables
     public float walkSpeed = 40f;
+    
     private float runSpeed = 0f;
     private float movementSpeed;
     private float horizontalMove = 0f;
-
     private bool jump = false;
     private bool jumpJetpack = false;
 
@@ -35,12 +32,9 @@ public class playermovement : MonoBehaviour
         movementSpeed = walkSpeed + runSpeed;
         horizontalMove = Input.GetAxisRaw("Horizontal") * movementSpeed;
 
-        // animator.SetFloat("speed", Mathf.Abs(horizontalMove));
-
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            // animator.SetBool("isJumping", true);
         }
         if (Input.GetButtonDown("Jetpack"))
         {
@@ -56,11 +50,6 @@ public class playermovement : MonoBehaviour
         }
     }
 
-    public void OnLanding()
-    {
-        // animator.SetBool("isJumping", false);
-    }
-
     private void FixedUpdate()
     {
         // Move the character
@@ -70,10 +59,28 @@ public class playermovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // Activates the grapple
         if (other.gameObject.tag == "Grapple")
         {
             grapplePoint = other.gameObject.transform;
             grappleRope.enabled = true;
+        }
+
+        if (other.gameObject.tag == "movable")
+        {
+            MovableBlock();
+        }
+    }
+
+    private void MovableBlock()
+    {
+        if (Input.GetButtonDown("Grapple"))
+        {
+
+        }
+        else if (Input.GetButtonUp("Grapple"))
+        {
+
         }
     }
 }

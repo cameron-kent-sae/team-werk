@@ -14,12 +14,10 @@ public class enemy : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+    // Inflicts Damage and checks if enemy dies
     public void TakeDamage (int damage)
     {
         currentHealth -= damage;
-
-        // Play injury animation
-        //animator.SetTrigger("hurt");
 
         if (currentHealth <= 0)
         {
@@ -27,12 +25,11 @@ public class enemy : MonoBehaviour
         }
     }
 
+    // Disables enemy and will play death animation
     private void Die()
     {
         Debug.Log("Enemy Died");
-        // Die animation
-        //animator.SetBool("isDead", true);
-
+        
         // Disable the enemy
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
