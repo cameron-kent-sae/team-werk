@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class grappler : MonoBehaviour
 {
-    public grappleIndicator grappleIndication;
+    public playermovement grappleIndication;
     public LineRenderer whipRenderer;
     public DistanceJoint2D distanceJoint;
-    public Camera mainCamera;
     public Transform firePoint;
     
     // Start is called before the first frame update

@@ -6,9 +6,13 @@ public class playermovement : MonoBehaviour
 {
     // Calls controller script
     public CharacterController2D controller;
+    public grappler grappleRope;
 
     // Calls the animator
     // public Animator animator;
+
+    // Creating transform points
+    public Transform grapplePoint;
 
     // Speed variables
     public float walkSpeed = 40f;
@@ -18,7 +22,12 @@ public class playermovement : MonoBehaviour
 
     private bool jump = false;
     private bool jumpJetpack = false;
-    private bool crouch = false;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        grappleRope.enabled = false;
+    }
 
     // Update is called once per frame
     void Update()
@@ -52,15 +61,19 @@ public class playermovement : MonoBehaviour
         // animator.SetBool("isJumping", false);
     }
 
-    public void OnCrouching(bool isCrouching)
-    {
-        // animator.SetBool("isCrouching", isCrouching);
-    }
     private void FixedUpdate()
     {
         // Move the character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump, jumpJetpack);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, jump, jumpJetpack);
         jump = false;
         jumpJetpack = false;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Grapple")
+        {
+            grapplePoint = other.gameObject.transform;
+            grappleRope.enabled = true;
+        }
     }
 }
