@@ -917,7 +917,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 285879956}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ae53828a07d035847991f3663b62b5cd, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1770,36 +1770,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1939464370814953475, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_Distance
-      value: 10.977249
-      objectReference: {fileID: 0}
-    - target: {fileID: 2601878052919444743, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: ae53828a07d035847991f3663b62b5cd, type: 2}
     - target: {fileID: 8751781350148907015, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: spawn
       value: 
       objectReference: {fileID: 1428610418}
-    - target: {fileID: 8981594356401332296, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594356401332297, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.4990001
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594356401332297, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.013
-      objectReference: {fileID: 0}
     - target: {fileID: 8981594358157760710, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: m_Name
@@ -1810,36 +1785,6 @@ PrefabInstance:
       propertyPath: spawn
       value: 
       objectReference: {fileID: 1428610418}
-    - target: {fileID: 8981594358157760711, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: jumpVelocity
-      value: 9.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594358157760711, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: jumpForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594358157760712, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594358157760713, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594358157760713, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.6250901
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981594358157760713, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.120352
-      objectReference: {fileID: 0}
     - target: {fileID: 8981594358157760716, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: m_LocalPosition.x
