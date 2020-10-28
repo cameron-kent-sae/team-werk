@@ -39,8 +39,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Trap
+  - Shooter
   - Ground
   m_SortingLayers:
   - name: Default

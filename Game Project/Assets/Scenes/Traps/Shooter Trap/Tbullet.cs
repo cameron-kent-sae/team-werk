@@ -19,12 +19,12 @@ public class Tbullet : MonoBehaviour
     // Destroy when hitting the tilemap 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Tilemap")|| other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Damage"))
+        if (other.gameObject.CompareTag("Tilemap")|| other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Wall"))
         {
+            print("test");
             Destroy(gameObject);
 
         }
     }
-
 
 }
