@@ -113,7 +113,7 @@ Animator:
   m_GameObject: {fileID: 8981594358157760710}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e69ed023d9624fc45be570049447bd8a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 23ed6f7e1f96cfb4c97aecac33407087, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -186,7 +186,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.001034975, y: 0.12}
+  m_Offset: {x: 0.001034975, y: -0.034440815}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -197,7 +197,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6250901, y: 0.6250901}
+  m_Size: {x: 0.6250901, y: 0.93397176}
   m_EdgeRadius: 0.01
 --- !u!58 &2601878052919444743
 CircleCollider2D:
@@ -206,7 +206,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8981594358157760710}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: ae53828a07d035847991f3663b62b5cd, type: 2}
   m_IsTrigger: 0
@@ -230,7 +230,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: ae53828a07d035847991f3663b62b5cd, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 2147483703
+    m_Bits: 2147483648
   m_GroundCheck: {fileID: 8981594356401332297}
   m_FacingRight: 1
   OnLandEvent:
@@ -300,6 +300,7 @@ MonoBehaviour:
   controller: {fileID: -7185860740282424089}
   grappleRope: {fileID: 4330757682634603404}
   grapplePoint: {fileID: 0}
+  spawn: {fileID: 0}
   health: 1
   walkSpeed: 40
 --- !u!114 &4330757682634603404
@@ -335,7 +336,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 4.9867682
+  m_Distance: 91.18418
   m_MaxDistanceOnly: 1
 --- !u!120 &3039346289901757183
 LineRenderer:
