@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 83149297}
   - component: {fileID: 83149296}
   m_Layer: 5
-  m_Name: Image
+  m_Name: OptionMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -613,7 +613,7 @@ GameObject:
   - component: {fileID: 106497383}
   - component: {fileID: 106497382}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: ValueFullscreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 174520841}
   - component: {fileID: 174520840}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: ValueTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 451812177}
   - component: {fileID: 451812176}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: OptionTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 577741106}
   - component: {fileID: 577741105}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: OptionSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1916,7 +1916,7 @@ GameObject:
   - component: {fileID: 662344498}
   - component: {fileID: 662344497}
   m_Layer: 5
-  m_Name: Image
+  m_Name: ValueMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1991,7 +1991,7 @@ GameObject:
   - component: {fileID: 718073630}
   - component: {fileID: 718073629}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: OptionsReset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2066,7 +2066,7 @@ GameObject:
   - component: {fileID: 742122824}
   - component: {fileID: 742122823}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: OptionButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 1160223862}
   - component: {fileID: 1160223861}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: ValueSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4231,7 +4231,7 @@ GameObject:
   - component: {fileID: 1686689274}
   - component: {fileID: 1686689273}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4441,7 +4441,7 @@ GameObject:
   - component: {fileID: 1736340729}
   - component: {fileID: 1736340728}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: OptionFullscreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4651,7 +4651,7 @@ GameObject:
   - component: {fileID: 1826046997}
   - component: {fileID: 1826046996}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

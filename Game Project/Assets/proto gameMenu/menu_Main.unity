@@ -1278,7 +1278,7 @@ PrefabInstance:
     - target: {fileID: 7181971221108199260, guid: 75764b232c4ae4b44a867822e3bab0c5,
         type: 3}
       propertyPath: m_Name
-      value: MenuButton
+      value: MB_Exit
       objectReference: {fileID: 0}
     - target: {fileID: 7181971221108199261, guid: 75764b232c4ae4b44a867822e3bab0c5,
         type: 3}
@@ -1425,10 +1425,15 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 7181971221108199235, guid: 75764b232c4ae4b44a867822e3bab0c5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7181971221108199260, guid: 75764b232c4ae4b44a867822e3bab0c5,
         type: 3}
       propertyPath: m_Name
-      value: MenuButton
+      value: MB_StartGame
       objectReference: {fileID: 0}
     - target: {fileID: 7181971221108199261, guid: 75764b232c4ae4b44a867822e3bab0c5,
         type: 3}
@@ -1578,7 +1583,7 @@ PrefabInstance:
     - target: {fileID: 7181971221108199260, guid: 75764b232c4ae4b44a867822e3bab0c5,
         type: 3}
       propertyPath: m_Name
-      value: MenuButton
+      value: MB_Options
       objectReference: {fileID: 0}
     - target: {fileID: 7181971221108199261, guid: 75764b232c4ae4b44a867822e3bab0c5,
         type: 3}
