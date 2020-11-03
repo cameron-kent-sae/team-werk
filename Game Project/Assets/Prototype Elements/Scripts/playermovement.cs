@@ -61,6 +61,7 @@ public class playermovement : MonoBehaviour
         {
             gameObject.transform.position = spawn.position;
             health = 1;
+            Application.LoadLevel(Application.loadedLevel);
         }
     }
 
