@@ -9,6 +9,7 @@ TagManager:
   - Damage
   - AI
   - Wall
+  - Gravity Buttom
   layers:
   - Default
   - TransparentFX

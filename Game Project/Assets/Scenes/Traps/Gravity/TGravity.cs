@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class TGravity : MonoBehaviour
 {
@@ -8,7 +10,10 @@ public class TGravity : MonoBehaviour
 
     //refer to the player controllor stript
     private TestControl player;
-    
+
+    //UI message
+    public Text message;
+
     private bool top;
 
     void Start()
@@ -17,22 +22,32 @@ public class TGravity : MonoBehaviour
         player = GetComponent<TestControl>();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    //If player OnTrigger, Press E to invoke the event
+    void OnTriggerStay2D(Collider2D trigger)
+    {
+        if (trigger.gameObject.CompareTag("Gravity Buttom"))
+        {
+            message.text = "Press A to change the gravity";
+
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                rb.gravityScale *= -1;
+                Rotation();
+            }
+
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D trigger)
     {
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (trigger.gameObject.CompareTag("Gravity Buttom"))
         {
-            rb.gravityScale *= -1;
-            Rotation();
+            message.text = " ";
         }
-
-        //if (Input.GetKeyDown(KeyCode.T))
-        //{
-        //    Physics2D.gravity = new Vector2(-9.81f, 0f);
-        //    transform.eulerAngles = new Vector3(0, 0, -90f);
-       // }
     }
+
 
     void Rotation()
     {
