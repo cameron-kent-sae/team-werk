@@ -3,8 +3,13 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
-	[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
-	[SerializeField] private float m_jetpackJumpForce = 600f;                   // Amount of force added when the player jumps with jetpack.
+	//Can we change these 2 to public? so i can change the value by using other script
+	[SerializeField] public float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
+	[SerializeField] public float m_jetpackJumpForce = 600f;                   // Amount of force added when the player jumps with jetpack.
+
+	//[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
+	//[SerializeField] private float m_jetpackJumpForce = 600f;                   // Amount of force added when the player jumps with jetpack.
+	
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;                         // Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character

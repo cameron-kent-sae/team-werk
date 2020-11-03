@@ -256,8 +256,8 @@ GameObject:
   - component: {fileID: 257517918}
   - component: {fileID: 257517917}
   m_Layer: 0
-  m_Name: Gravity buttom
-  m_TagString: Gravity Buttom
+  m_Name: Gravity button
+  m_TagString: Gravity Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1772,8 +1772,8 @@ GameObject:
   - component: {fileID: 1744282766}
   - component: {fileID: 1744282764}
   m_Layer: 0
-  m_Name: Gravity buttom
-  m_TagString: Gravity Buttom
+  m_Name: Gravity button
+  m_TagString: Gravity Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
