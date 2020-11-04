@@ -1415,7 +1415,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.1426549
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 3
@@ -1473,7 +1473,7 @@ DistanceJoint2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999685526}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 1134113822}
@@ -1500,7 +1500,6 @@ MonoBehaviour:
   grappleIndication: {fileID: 1999685527}
   whipRenderer: {fileID: 1999685537}
   distanceJoint: {fileID: 1999685535}
-  mainCamera: {fileID: 519420031}
   firePoint: {fileID: 1475855690}
 --- !u!120 &1999685537
 LineRenderer:
@@ -1509,7 +1508,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999685526}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
