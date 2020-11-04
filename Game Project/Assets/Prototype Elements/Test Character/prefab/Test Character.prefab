@@ -74,12 +74,12 @@ GameObject:
   - component: {fileID: 8981594358157760713}
   - component: {fileID: 2601878052919444743}
   - component: {fileID: 8981594358157760712}
-  - component: {fileID: 8981594358157760711}
   - component: {fileID: -7185860740282424089}
   - component: {fileID: 8751781350148907015}
   - component: {fileID: 4330757682634603404}
   - component: {fileID: 1939464370814953475}
   - component: {fileID: 3039346289901757183}
+  - component: {fileID: 1825721338}
   m_Layer: 9
   m_Name: Test Character
   m_TagString: Player
@@ -236,31 +236,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8981594358157760711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8981594358157760710}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31ebfbbcee8003b4f8cb113426479c03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
-  speed: 5
-  jumpForce: 5
-  animator: {fileID: 8981594358157760715}
-  spawn: {fileID: 0}
-  jumpVelocity: 9.5
-  isGrounded: 0
-  groundCheck: {fileID: 8981594356401332297}
-  checkRadius: 0.5
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 2147483648
-  facingRight: 1
 --- !u!114 &-7185860740282424089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06329ec9497ecb4da49fece454df0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 300
+  m_JumpForce: 350
   m_jetpackJumpForce: 500
   m_MovementSmoothing: 0.1
   m_AirControl: 1
@@ -302,7 +277,7 @@ MonoBehaviour:
   grapplePoint: {fileID: 0}
   spawn: {fileID: 0}
   health: 1
-  walkSpeed: 40
+  walkSpeed: 20
 --- !u!114 &4330757682634603404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +311,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 10.977249
+  m_Distance: 75.501656
   m_MaxDistanceOnly: 1
 --- !u!120 &3039346289901757183
 LineRenderer:
@@ -435,3 +410,16 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &1825721338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981594358157760710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c884077a041764a96dbb9ad94c72e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: {fileID: 0}
