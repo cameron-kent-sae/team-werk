@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 9064783492304775839}
   - component: {fileID: 9064783492304775827}
   - component: {fileID: 9064783492304775836}
+  - component: {fileID: 5263448341124316023}
   m_Layer: 0
   m_Name: Stone Left
   m_TagString: AI
@@ -106,7 +107,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8399011212269539787, guid: f2d74c5cf5e6b6f4599e58cebed25bb3,
+  m_Sprite: {fileID: 3452003437791708593, guid: e968daf2d0a1e034cae868e781dca94e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -133,7 +134,6 @@ MonoBehaviour:
   speed: 1.5
   isGrounded: 0
   hitGround: {fileID: 9064783491971966736}
-  landed: 1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 2147483648
@@ -198,6 +198,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &5263448341124316023
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9064783492304775832}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ad911912e4e117b4baa4ac6148fe6a11, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9064783493732555510
 GameObject:
   m_ObjectHideFlags: 0
