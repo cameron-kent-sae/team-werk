@@ -65,22 +65,5 @@ public class playermovement : MonoBehaviour
             grapplePoint = other.gameObject.transform;
             grappleRope.enabled = true;
         }
-
-        if (other.gameObject.tag == "movable")
-        {
-            MovableBlock();
-        }
-    }
-
-    private void MovableBlock()
-    {
-        if (Input.GetButtonDown("Grapple"))
-        {
-
-        }
-        else if (Input.GetButtonUp("Grapple"))
-        {
-
-        }
     }
 }
