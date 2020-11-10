@@ -6,16 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-
-    path: Assets/proto gameMenu/redundant/p_MainMenu.unity
-    guid: 3cc51e32ad8ab6443a720f80711a53b3
-  - enabled: 1
-    path: Assets/proto gameMenu/redundant/p_LoadMenu.unity
-    guid: f1fa4e5c10da69542b8f7832b55777e1
-  - enabled: 1
-    path: Assets/proto gameMenu/redundant/p_OptionsMenu.unity
-    guid: 07ad50686d0474d418419ee1fc297970
-
     path: Assets/Scenes/Level Prototype/Level 01.unity
     guid: 8e95fa87aed3ce54eb97b40b4fca7239
   - enabled: 1
@@ -27,5 +17,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Prototype/Level 04.unity
     guid: a7a5a16ad8da4bb47a4030b5950753ad
-
   m_configObjects: {}

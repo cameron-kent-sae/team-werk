@@ -12,7 +12,7 @@ public class Tspike : MonoBehaviour
     void Update()
     {
         RaycastHit2D playerdetect = Physics2D.Raycast(playerDetection.position, Vector2.right, 0.5f);
-
+        /**
         if (playerdetect != null)
         {
             if (playerdetect.collider.gameObject.CompareTag("Player"))
@@ -25,7 +25,7 @@ public class Tspike : MonoBehaviour
                 animator.SetBool("Trigger", false);
             }
         }
-            
+           **/ 
 
     }
     //Trigger the trap by the player when enter the collision , exit to switch off
