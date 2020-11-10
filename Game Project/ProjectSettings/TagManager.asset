@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+
+  - Grapple
+  - movable
+  - pushblock
+
+  - Tilemap
+  - Trap
+  - Damage
+  - AI
+  - Wall
+  - Gravity Button
+  - PlayArea
+
   layers:
   - Default
   - TransparentFX
@@ -13,6 +26,18 @@ TagManager:
   - UI
   - 
   - 
+
+  - player
+  - enemy
+  - terrain
+  - movable
+
+  - 
+
+  - 
+  - 
+  - 
+
   - 
   - 
   - 
@@ -27,17 +52,15 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Light
+  - PlayArea
+  - Trap
+  - Shooter
+  - Ground
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 4282370249
     locked: 0
