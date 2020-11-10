@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 23c1250320196d844a91e56764b9d6a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6462658853305426357
+    second: Lava Tile2_0
+  - first:
+      213: -1102591712998558834
+    second: Lava Tile2_1
+  - first:
+      213: 6291998160530607239
+    second: Lava Tile2_2
+  - first:
+      213: 5220257251045234720
+    second: Lava Tile2_3
+  - first:
+      213: 6339110218234745339
+    second: Lava Tile2_4
+  - first:
+      213: -1863201614358453175
+    second: Lava Tile2_5
+  - first:
+      213: 3626634456058760301
+    second: Lava Tile2_6
+  - first:
+      213: 6272000335768729750
+    second: Lava Tile2_7
+  - first:
+      213: 1074390676184057389
+    second: Lava Tile2_8
+  - first:
+      213: 7162911123764207108
+    second: Lava Tile2_9
+  - first:
+      213: -2418262029557635627
+    second: Lava Tile2_10
+  - first:
+      213: -6579765757456798963
+    second: Lava Tile2_11
+  - first:
+      213: -3310317685269426894
+    second: Lava Tile2_12
+  - first:
+      213: 7166145810189189853
+    second: Lava Tile2_13
+  - first:
+      213: 223228147437021379
+    second: Lava Tile2_14
+  - first:
+      213: -8894844019367867006
+    second: Lava Tile2_15
+  - first:
+      213: -7983779719236115580
+    second: Lava Tile2_2
+  - first:
+      213: 3807202586717550833
+    second: Lava Tile2_4
+  - first:
+      213: 1189041318687289349
+    second: Lava Tile2_5
+  - first:
+      213: 9104813013207659282
+    second: Lava Tile2_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lava Tile2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 118
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1adc78cf9ffa950800000000000000
+      internalID: 6462658853305426357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 118
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e837e66cdaec2b0f0800000000000000
+      internalID: -1102591712998558834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 118
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a6fd25aae33190800000000000000
+      internalID: -7983779719236115580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 61
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02855bccf44127840800000000000000
+      internalID: 5220257251045234720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 86
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87f39c496e5d430800000000000000
+      internalID: 3807202586717550833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 86
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5003e9f87c2508010800000000000000
+      internalID: 1189041318687289349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 86
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213b896323bca5e70800000000000000
+      internalID: 9104813013207659282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tile2_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 22
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69830ac231f9a0750800000000000000
+      internalID: 6272000335768729750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
