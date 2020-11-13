@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &62919181
 Transform:
   m_ObjectHideFlags: 0
@@ -3471,13 +3471,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3612888492026577586, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
         type: 3}
-      propertyPath: speed
-      value: 2
+      propertyPath: ai.m_Bits
+      value: 2147483648
       objectReference: {fileID: 0}
     - target: {fileID: 3612888492026577587, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
         type: 3}
       propertyPath: m_Name
       value: Moving AI LV1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612888492026577587, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 3612888492026577590, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
         type: 3}
@@ -3533,6 +3538,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612888493041506610, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612888493598223092, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91f177ff9255d9b42b70f39fbeb9b2b0, type: 3}
@@ -4726,10 +4741,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 62919181}
     m_Modifications:
+    - target: {fileID: 3612888492026577586, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: ai.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 3612888492026577587, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
         type: 3}
       propertyPath: m_Name
       value: Moving AI LV1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612888492026577587, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 3612888492026577590, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
         type: 3}
@@ -4785,6 +4810,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612888493041506610, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612888493598223092, guid: 91f177ff9255d9b42b70f39fbeb9b2b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91f177ff9255d9b42b70f39fbeb9b2b0, type: 3}
@@ -8213,6 +8248,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 630658129, guid: cf1d7e1462ceb624ba0964a486b40edc, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7175778319273832017, guid: cf1d7e1462ceb624ba0964a486b40edc,
         type: 3}
       propertyPath: m_LocalPosition.x

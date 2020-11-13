@@ -9,6 +9,7 @@ public class Tai1 : MonoBehaviour
     public bool movingRight = true; //facing right or not
     public Transform groundDetection; //object for ground check
     public Transform wallCheck; //object for wall check
+    public LayerMask ai;
 
     private Rigidbody2D body2D;
 
@@ -31,14 +32,14 @@ public class Tai1 : MonoBehaviour
     {
         body2D.velocity = new Vector2(transform.localScale.x, 0) * speed; //AI moving 
 
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2f); //create a raycast, checking any ground tile in the front
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2f, ai); //create a raycast, checking any ground tile in the front
 
         if (groundInfo.collider == false) //if the edge in the front, turn back
         {
             Retune();
         }
 
-        RaycastHit2D wallInfo = Physics2D.Raycast(wallCheck.position, Vector2.down, 0.05f); //create a raycast, checking any wall in the front
+        RaycastHit2D wallInfo = Physics2D.Raycast(wallCheck.position, Vector2.down, 0.05f, ai); //create a raycast, checking any wall in the front
 
 
         //if hit the collider and the tag is Tilemap then turn back
