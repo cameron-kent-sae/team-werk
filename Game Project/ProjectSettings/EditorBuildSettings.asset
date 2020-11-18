@@ -6,15 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PROTOTYPES/Level Prototype/_Level 01.unity
-    guid: 8e95fa87aed3ce54eb97b40b4fca7239
-  - enabled: 1
-    path: Assets/PROTOTYPES/Level Prototype/Level 02.unity
-    guid: c907a2ddccffe434f889785f4e023070
-  - enabled: 1
-    path: Assets/PROTOTYPES/Level Prototype/Level 03.unity
-    guid: 5a22ad367a2338a4eb7c90915a14a92a
-  - enabled: 1
-    path: Assets/PROTOTYPES/Level Prototype/Level 04.unity
-    guid: a7a5a16ad8da4bb47a4030b5950753ad
+    path: Assets/Scenes/Levels/World 1/1-1.unity
+    guid: 42849ffee473fa44db4ed23c5b219d74
   m_configObjects: {}
