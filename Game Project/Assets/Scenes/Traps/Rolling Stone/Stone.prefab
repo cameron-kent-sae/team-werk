@@ -101,10 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251b339ea7aeb3848b9e5b07bbc7c19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   isGrounded: 0
   hitGround: {fileID: 165616897029902684}
-  landed: 1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 2147483648
