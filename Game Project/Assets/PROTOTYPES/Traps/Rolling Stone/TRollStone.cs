@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TRolling2 : MonoBehaviour
+public class TRollStone : MonoBehaviour
 {
 
     public float speed;
@@ -23,7 +23,7 @@ public class TRolling2 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // to set which way the AI facing
+        // facing left when start
         if (movingRight == false)
         {
             Vector3 Scaler = transform.localScale;
@@ -36,6 +36,7 @@ public class TRolling2 : MonoBehaviour
 
     void Update()
     {
+        //object only moving x or y when on the ground
         isGrounded = Physics2D.OverlapCircle(hitGround.position, checkRadius, whatIsGround);
 
         if (isGrounded == true)
@@ -44,6 +45,7 @@ public class TRolling2 : MonoBehaviour
         }
     }
 
+    //Object filp when hit the wall or AI
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Wall") || other.gameObject.CompareTag("AI"))
@@ -55,7 +57,6 @@ public class TRolling2 : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
 
     }
 
