@@ -10,14 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 165616896559013073}
   - component: {fileID: 165616896559013074}
-  - component: {fileID: -6449333753744328549}
-  - component: {fileID: 165616896559013075}
   - component: {fileID: 165616896559013087}
   - component: {fileID: 165616896559013072}
   - component: {fileID: 3145095906729552343}
+  - component: {fileID: 8959313217327907652}
   m_Layer: 0
   m_Name: Stone
-  m_TagString: AI
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +33,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 165616897029902684}
-  - {fileID: 165616897450421433}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -89,49 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-6449333753744328549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165616896559013076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251b339ea7aeb3848b9e5b07bbc7c19b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  isGrounded: 0
-  hitGround: {fileID: 165616897029902684}
-  landed: 1
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 2147483648
-  checkRadius: 0.1
-  movingRight: 1
---- !u!114 &165616896559013075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165616896559013076}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67a0968498a816443a211e0ac3e2363f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1.5
-  isGrounded: 0
-  hitGround: {fileID: 165616897029902684}
-  landed: 1
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 2147483648
-  checkRadius: 0.1
-  movingRight: 1
-  wallCheck: {fileID: 165616897450421433}
 --- !u!58 &165616896559013087
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -145,9 +100,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005533159, y: 0}
+  m_Offset: {x: 0.00016659498, y: 0}
   serializedVersion: 2
-  m_Radius: 0.46126777
+  m_Radius: 0.37
 --- !u!50 &165616896559013072
 Rigidbody2D:
   serializedVersion: 4
@@ -188,6 +143,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8959313217327907652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165616896559013076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03dc4ad5de386f49ad2bf1bed9074e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2.5
+  isGrounded: 0
+  hitGround: {fileID: 165616897029902684}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  checkRadius: 0.1
+  movingRight: 1
 --- !u!1 &165616897029902685
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,39 +187,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165616897029902685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005, y: -0.47, z: -36.11788}
+  m_LocalPosition: {x: 0.0050001144, y: -0.37295914, z: -36.11788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 165616896559013073}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &165616897450421434
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 165616897450421433}
-  m_Layer: 0
-  m_Name: WallCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &165616897450421433
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165616897450421434}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.499, y: 0.01, z: -36.11788}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 165616896559013073}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
