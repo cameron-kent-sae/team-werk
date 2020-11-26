@@ -1013,6 +1013,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1574940161106296952, guid: be53177595bdacf47a220fc3778c74fe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574940161106296952, guid: be53177595bdacf47a220fc3778c74fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574940161106296956, guid: be53177595bdacf47a220fc3778c74fe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1574940161181884268, guid: be53177595bdacf47a220fc3778c74fe,
         type: 3}
       propertyPath: m_Name
