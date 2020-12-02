@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: heroIlde
+  m_Name: Player_Dash
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,19 +19,13 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0
-      value: {fileID: 21300000, guid: 144ba9679fd92134b82f3b21c22ac915, type: 3}
-    - time: 0.1
-      value: {fileID: 21300000, guid: 4770140d2c99150439c22a4432332bd7, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: a1c0fa45380a94646b9c10ca0d12b282, type: 3}
-    - time: 0.3
-      value: {fileID: 21300000, guid: 4ed55ab5a6a1d794ca035f4c6cb9f390, type: 3}
+    - time: 0.033333335
+      value: {fileID: 21300000, guid: 894746725b7464e45ba759620929a9bf, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 10
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -46,16 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 144ba9679fd92134b82f3b21c22ac915, type: 3}
-    - {fileID: 21300000, guid: 4770140d2c99150439c22a4432332bd7, type: 3}
-    - {fileID: 21300000, guid: a1c0fa45380a94646b9c10ca0d12b282, type: 3}
-    - {fileID: 21300000, guid: 4ed55ab5a6a1d794ca035f4c6cb9f390, type: 3}
+    - {fileID: 21300000, guid: 894746725b7464e45ba759620929a9bf, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 0.050000004
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
