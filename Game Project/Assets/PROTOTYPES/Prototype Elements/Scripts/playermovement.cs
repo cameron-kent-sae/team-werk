@@ -8,8 +8,8 @@ public class playermovement : MonoBehaviour
     public CharacterController2D controller;
     public grappler grappleRope;
 
-    // Calls the animator
-    // public Animator animator;
+    // Calls the animator here ****
+    
 
     // Creating transform points
     public Transform grapplePoint;
@@ -38,24 +38,27 @@ public class playermovement : MonoBehaviour
         movementSpeed = walkSpeed + runSpeed;
         horizontalMove = Input.GetAxisRaw("Horizontal") * movementSpeed;
 
-        // animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+        // movement animation here ****
 
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            // animator.SetBool("isJumping", true);
+            // jumping animation here ****
         }
         if (Input.GetButtonDown("Jetpack"))
         {
             jumpJetpack = true;
+            // jetpack animation here ****
         }
         if (Input.GetButtonDown("Run"))
         {
             runSpeed = 40f;
+            // dash animation here ****
         }
         else if (Input.GetButtonUp("Run"))
         {
             runSpeed = 0f;
+            // stop dash animation here ****
         }
         if (health <= 0)
         {
@@ -67,7 +70,8 @@ public class playermovement : MonoBehaviour
 
     public void OnLanding()
     {
-        // animator.SetBool("isJumping", false);
+        // stop jumping animation here ****
+        // stop jetpack animation here ****
     }
 
     private void FixedUpdate()
@@ -91,6 +95,7 @@ public class playermovement : MonoBehaviour
         {
             Debug.Log("dead");
             health -= 1;
+            // die animation here ****
         }
     }
 }
