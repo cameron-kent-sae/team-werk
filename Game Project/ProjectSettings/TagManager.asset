@@ -52,3 +52,6 @@ TagManager:
   - name: Map
     uniqueID: 4282370249
     locked: 0
+  - name: Front
+    uniqueID: 4193300615
+    locked: 0

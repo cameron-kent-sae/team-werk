@@ -10,5 +10,6 @@ public class TriggerAct : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) ;
         print("ok");
         GetComponent<Tpathing>().enabled = true;
+        GetComponent<AudioSource>().enabled = true;
     }
 }

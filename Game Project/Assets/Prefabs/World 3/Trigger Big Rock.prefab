@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8755181331069351131}
   - component: {fileID: 6620590080849676080}
   - component: {fileID: 9129944312417340560}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Block
-  m_TagString: Untagged
+  m_TagString: Tilemap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651185439126943240}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 45.5, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 1393507937536248229}
   - component: {fileID: 2800512987703192259}
   - component: {fileID: 6519557787943367055}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: World3_spite_201202_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,7 +356,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -376,7 +376,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -6374864444066037604, guid: 8000ee0e9c5fea04881a9d5595fd7883,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -438,8 +438,8 @@ GameObject:
   - component: {fileID: 3499722721611774887}
   - component: {fileID: 3499722721611774885}
   - component: {fileID: 3499722721611774886}
-  - component: {fileID: 3499722721611774937}
   - component: {fileID: 3499722721611774884}
+  - component: {fileID: 560852374}
   m_Layer: 0
   m_Name: MovingRock_prototype_0
   m_TagString: Untagged
@@ -542,32 +542,6 @@ MonoBehaviour:
   - {fileID: 1651185440399919565}
   speed: 1
   wayPointNumber: 0
---- !u!61 &3499722721611774937
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3499722721611774939}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -1.0448341, y: -0.16278434}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 2}
-    newSize: {x: 3, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.28238678, y: 1.6744313}
-  m_EdgeRadius: 0
 --- !u!61 &3499722721611774884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -594,6 +568,102 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.0042152, y: 2}
   m_EdgeRadius: 0
+--- !u!82 &560852374
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3499722721611774939}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d14c5999e51abe74993e9e483e3faeda, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.4
+  m_Pitch: 0.4
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.61
+  MaxDistance: 6.69
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5555556
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3586079219244636447
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +823,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -773,7 +843,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -6374864444066037604, guid: 8000ee0e9c5fea04881a9d5595fd7883,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -989,7 +1059,7 @@ GameObject:
   - component: {fileID: 7255399910204860582}
   - component: {fileID: 7274987622458256189}
   - component: {fileID: 2075664584408967127}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: World3_spite_201202_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1168,7 @@ GameObject:
   - component: {fileID: 3697115880434747759}
   - component: {fileID: 3172106888457184046}
   - component: {fileID: 5863368247003183791}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: World3_spite_201202_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1207,7 +1277,7 @@ GameObject:
   - component: {fileID: 9099268523896727930}
   - component: {fileID: 2929652555086995105}
   - component: {fileID: 5981659411648919209}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: World3_spite_201202_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
