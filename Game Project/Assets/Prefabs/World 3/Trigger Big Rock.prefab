@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651185440399919566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: -0.5, z: 0}
+  m_LocalPosition: {x: -9, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1651185439126943239}
@@ -540,7 +540,7 @@ MonoBehaviour:
   wayPoint:
   - {fileID: 1651185438888328570}
   - {fileID: 1651185440399919565}
-  speed: 1
+  speed: 3
   wayPointNumber: 0
 --- !u!61 &3499722721611774884
 BoxCollider2D:
@@ -555,7 +555,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5021076, y: 0}
+  m_Offset: {x: -2.4941998, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -566,7 +566,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.0042152, y: 2}
+  m_Size: {x: 7.9883995, y: 2}
   m_EdgeRadius: 0
 --- !u!82 &560852374
 AudioSource:
@@ -580,7 +580,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d14c5999e51abe74993e9e483e3faeda, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.76
   m_Pitch: 0.4
   Loop: 0
   Mute: 0
