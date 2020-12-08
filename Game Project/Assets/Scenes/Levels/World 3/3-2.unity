@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1617,6 +1617,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1881276993}
     m_Modifications:
+    - target: {fileID: 955207591891027138, guid: e535d66e4beb9724dbc6d5afd4700c10,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1606034076}
     - target: {fileID: 3433468911580353520, guid: e535d66e4beb9724dbc6d5afd4700c10,
         type: 3}
       propertyPath: cam
@@ -1640,7 +1645,7 @@ PrefabInstance:
     - target: {fileID: 5419775060066267751, guid: e535d66e4beb9724dbc6d5afd4700c10,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.6211824
+      value: -6.81
       objectReference: {fileID: 0}
     - target: {fileID: 5419775060066267751, guid: e535d66e4beb9724dbc6d5afd4700c10,
         type: 3}
@@ -1687,6 +1692,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9101006749865540997, guid: e535d66e4beb9724dbc6d5afd4700c10,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1606034076}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e535d66e4beb9724dbc6d5afd4700c10, type: 3}
 --- !u!4 &925482260 stripped
@@ -8676,7 +8686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126075239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.50618, y: -9.406908, z: -7.1972046}
+  m_LocalPosition: {x: -6.4011707, y: -9.4470215, z: -7.1972046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747687454}
