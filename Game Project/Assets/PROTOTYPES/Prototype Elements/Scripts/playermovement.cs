@@ -59,9 +59,9 @@ public class playermovement : MonoBehaviour
         }
         if (health <= 0)
         {
-            gameObject.transform.position = spawn.position;
+            //gameObject.transform.position = spawn.position;
             health = 1;
-            //Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel(Application.loadedLevel);
         }
     }
 

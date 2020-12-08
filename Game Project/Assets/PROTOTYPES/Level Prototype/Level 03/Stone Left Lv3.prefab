@@ -23,8 +23,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3702123102784136755}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0050001144, y: -0.37295914, z: -36.11788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3702123102986169279}
@@ -40,10 +40,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3702123102986169279}
   - component: {fileID: 3702123102986169276}
-  - component: {fileID: 1680876161914359797}
   - component: {fileID: 3702123102986169265}
   - component: {fileID: 3702123102986169278}
   - component: {fileID: 1912155140036779705}
+  - component: {fileID: 1766748203970129013}
   m_Layer: 0
   m_Name: Stone Left Lv3
   m_TagString: AI
@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3702123102986169274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3742294, y: 4.372959, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3702123102784136754}
@@ -117,26 +117,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1680876161914359797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3702123102986169274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251b339ea7aeb3848b9e5b07bbc7c19b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1.5
-  isGrounded: 0
-  hitGround: {fileID: 3702123102784136754}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 2147483648
-  checkRadius: 0.1
-  movingRight: 0
 --- !u!58 &3702123102986169265
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -193,3 +173,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1766748203970129013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3702123102986169274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cfc8d0d584a7d74b9d23e90a9069347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  isGrounded: 0
+  hitGround: {fileID: 3702123102784136754}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  checkRadius: 0.1
+  movingRight: 0

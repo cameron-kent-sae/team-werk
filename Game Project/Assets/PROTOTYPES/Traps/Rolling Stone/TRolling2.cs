@@ -34,7 +34,6 @@ public class TRolling2 : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(hitGround.position, checkRadius, whatIsGround);
@@ -51,6 +50,13 @@ public class TRolling2 : MonoBehaviour
         {
             Retune();
         }
+
+        if (other.gameObject.CompareTag("Damage"))
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 
 
