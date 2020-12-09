@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/proto gameMenu/redundant/p_MainMenu.unity
-    guid: 3cc51e32ad8ab6443a720f80711a53b3
+    path: Assets/gameMenu/menu_MapStory.unity
+    guid: 6935aca962e7c4a42bf24b8bf9a42401
   - enabled: 1
-    path: Assets/proto gameMenu/redundant/p_LoadMenu.unity
-    guid: f1fa4e5c10da69542b8f7832b55777e1
-  - enabled: 1
-    path: Assets/proto gameMenu/redundant/p_OptionsMenu.unity
-    guid: 07ad50686d0474d418419ee1fc297970
+    path: Assets/Scenes/Game.unity
+    guid: b18860e59fcfa164ebd8483d9b454b41
   m_configObjects: {}
