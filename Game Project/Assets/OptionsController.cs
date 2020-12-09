@@ -12,7 +12,7 @@ public class OptionsController : MonoBehaviour
     void Update()
     {
         //when ESC key pressed - loads main menu screen
-        if (Input.GetKeyDown("Cancel"))
+        if (Input.GetButtonDown("Cancel"))
             SceneManager.LoadScene(menuScene);
 
     }
