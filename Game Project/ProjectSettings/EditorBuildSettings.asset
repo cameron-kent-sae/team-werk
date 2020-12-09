@@ -14,10 +14,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/gameMenu/menu_MapStory.unity
     guid: 6935aca962e7c4a42bf24b8bf9a42401
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: b18860e59fcfa164ebd8483d9b454b41
+  - enabled: 1
+    path: Assets/gameMenu/menu_Options.unity
+    guid: 85d7792f20d9434469667347b765bc6a
+  - enabled: 1
+    path: Assets/gameMenu/menu_Main.unity
+    guid: 8d8924100a53f484c8d5b5a5076aecf9
   m_configObjects: {}
