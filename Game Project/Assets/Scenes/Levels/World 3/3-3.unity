@@ -2692,10 +2692,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Test Character
       objectReference: {fileID: 0}
+    - target: {fileID: 8981594358157760710, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8981594358157760716, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8981594358157760716, guid: 9607b07bcf9b73c40af1aed0a5d508e4,
         type: 3}
