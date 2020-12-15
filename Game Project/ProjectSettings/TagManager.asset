@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tilemap
+  - Trap
+  - Damage
+  - AI
+  - Wall
+  - Gravity Button
+  - PlayArea
+  - UpSide Down
   layers:
   - Default
   - TransparentFX
@@ -14,6 +22,7 @@ TagManager:
   - 
   - 
   - 
+  - player
   - 
   - 
   - 
@@ -31,13 +40,18 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Light
+  - PlayArea
+  - Trap
+  - Shooter
+  - Ground
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 4282370249
+    locked: 0
+  - name: Front
+    uniqueID: 4193300615
     locked: 0

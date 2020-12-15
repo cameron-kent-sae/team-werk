@@ -1,0 +1,1427 @@
+fileFormatVersion: 2
+guid: 45a5d08f098857642b33547b84a98f17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8336018292347582484
+    second: Lava Tileset_1_0
+  - first:
+      213: -8617651212316464201
+    second: Lava Tileset_1_1
+  - first:
+      213: -9059782991276288760
+    second: Lava Tileset_1_2
+  - first:
+      213: -5366820748660823460
+    second: Lava Tileset_1_3
+  - first:
+      213: -5743040369978135922
+    second: Lava Tileset_1_4
+  - first:
+      213: -7264587216468085628
+    second: Lava Tileset_1_5
+  - first:
+      213: -3412027170984866852
+    second: Lava Tileset_1_6
+  - first:
+      213: 1900909957447583182
+    second: Lava Tileset_1_7
+  - first:
+      213: -1281349297580523310
+    second: Lava Tileset_1_8
+  - first:
+      213: 5537537489383228284
+    second: Lava Tileset_1_9
+  - first:
+      213: 4098599344216988927
+    second: Lava Tileset_1_10
+  - first:
+      213: -482259789146849451
+    second: Lava Tileset_1_11
+  - first:
+      213: -3472606690556972922
+    second: Lava Tileset_1_12
+  - first:
+      213: -2360472214752430979
+    second: Lava Tileset_1_13
+  - first:
+      213: 7638008482541563766
+    second: Lava Tileset_1_14
+  - first:
+      213: 6926052758629421384
+    second: Lava Tileset_1_15
+  - first:
+      213: -6157272627456372459
+    second: Lava Tileset_1_16
+  - first:
+      213: -5864826094792899253
+    second: Lava Tileset_1_17
+  - first:
+      213: 5307236856150085625
+    second: Lava Tileset_1_18
+  - first:
+      213: -8883356763932938486
+    second: Lava Tileset_1_19
+  - first:
+      213: -6812979018398728968
+    second: Lava Tileset_1_20
+  - first:
+      213: 5719785590417328819
+    second: Lava Tileset_1_21
+  - first:
+      213: 4565272505318444089
+    second: Lava Tileset_1_22
+  - first:
+      213: 5194501734689283334
+    second: Lava Tileset_1_23
+  - first:
+      213: -5901432051414894490
+    second: Lava Tileset_1_24
+  - first:
+      213: 172155887865190218
+    second: Lava Tileset_1_25
+  - first:
+      213: 812237226691278021
+    second: Lava Tileset_1_26
+  - first:
+      213: 6078791197128490039
+    second: Lava Tileset_1_27
+  - first:
+      213: -7699247365082102585
+    second: Lava Tileset_1_28
+  - first:
+      213: 550840018819360918
+    second: Lava Tileset_1_29
+  - first:
+      213: -2782172394911292645
+    second: Lava Tileset_1_30
+  - first:
+      213: -7782991337336909970
+    second: Lava Tileset_1_31
+  - first:
+      213: 8501953840106103438
+    second: Lava Tileset_1_32
+  - first:
+      213: -4761081025803271770
+    second: Lava Tileset_1_33
+  - first:
+      213: 1918274198992533938
+    second: Lava Tileset_1_34
+  - first:
+      213: -6364016532867398443
+    second: Lava Tileset_1_35
+  - first:
+      213: -7971707787612183069
+    second: Lava Tileset_1_36
+  - first:
+      213: 8048058819214956184
+    second: Lava Tileset_1_37
+  - first:
+      213: 4371883192298821460
+    second: Lava Tileset_1_38
+  - first:
+      213: -2600803221705175955
+    second: Lava Tileset_1_39
+  - first:
+      213: -3096380814592120031
+    second: Lava Tileset_1_40
+  - first:
+      213: -5693527489417779915
+    second: Lava Tileset_1_41
+  - first:
+      213: -474832554430295816
+    second: Lava Tileset_1_42
+  - first:
+      213: 7414222304533873179
+    second: Lava Tileset_1_43
+  - first:
+      213: 2017421186216501624
+    second: Lava Tileset_1_44
+  - first:
+      213: -178979804982380813
+    second: Lava Tileset_1_45
+  - first:
+      213: -91023697630913752
+    second: Lava Tileset_1_46
+  - first:
+      213: -8756849325317691877
+    second: Lava Tileset_1_47
+  - first:
+      213: 9063422967070103784
+    second: Lava Tileset_1_48
+  - first:
+      213: -7942964289042322206
+    second: Lava Tileset_1_49
+  - first:
+      213: -6642702452486665143
+    second: Lava Tileset_1_50
+  - first:
+      213: 6671386992526188757
+    second: Lava Tileset_1_51
+  - first:
+      213: -361023525381691775
+    second: Lava Tileset_1_52
+  - first:
+      213: -3369115905756836532
+    second: Lava Tileset_1_53
+  - first:
+      213: -5132374451052439362
+    second: Lava Tileset_1_54
+  - first:
+      213: 8092190764722043612
+    second: Lava Tileset_1_55
+  - first:
+      213: -1213377057495279680
+    second: Lava Tileset_1_56
+  - first:
+      213: 3588400719652188344
+    second: Lava Tileset_1_57
+  - first:
+      213: -1372345384889004843
+    second: Lava Tileset_1_58
+  - first:
+      213: -3539852625004776183
+    second: Lava Tileset_1_59
+  - first:
+      213: -354233657640462896
+    second: Lava Tileset_1_60
+  - first:
+      213: -3819897655383269038
+    second: Lava Tileset_1_61
+  - first:
+      213: -4343704966170076645
+    second: Lava Tileset_1_62
+  - first:
+      213: 1274637579785895156
+    second: Lava Tileset_1_63
+  - first:
+      213: -6010020755647440618
+    second: Lava Tileset_1_0
+  - first:
+      213: -6865029663761023257
+    second: Lava Tileset_1_1
+  - first:
+      213: -7107299423923631022
+    second: Lava Tileset_1_2
+  - first:
+      213: 5692225265162178263
+    second: Lava Tileset_1_3
+  - first:
+      213: 2832256496571911828
+    second: Lava Tileset_1_4
+  - first:
+      213: -799390360941219792
+    second: Lava Tileset_1_5
+  - first:
+      213: 8579437322784217810
+    second: Lava Tileset_1_6
+  - first:
+      213: 910285840771273995
+    second: Lava Tileset_1_7
+  - first:
+      213: -2324745663547728728
+    second: Lava Tileset_1_8
+  - first:
+      213: -341874831628191306
+    second: Lava Tileset_1_9
+  - first:
+      213: 5530852408571111485
+    second: Lava Tileset_1_10
+  - first:
+      213: 7990269250369613872
+    second: Lava Tileset_1_11
+  - first:
+      213: 867670180505523912
+    second: Lava Tileset_1_12
+  - first:
+      213: -4911113670293407077
+    second: Lava Tileset_1_13
+  - first:
+      213: -6606983912630434258
+    second: Lava Tileset_1_14
+  - first:
+      213: -8469879192159418711
+    second: Lava Tileset_1_15
+  - first:
+      213: 2370726021969445245
+    second: Lava Tileset_1_16
+  - first:
+      213: 3968094429943661150
+    second: Lava Tileset_1_17
+  - first:
+      213: 964141565318366708
+    second: Lava Tileset_1_18
+  - first:
+      213: 2450740185302050348
+    second: Lava Tileset_1_19
+  - first:
+      213: 1219755816042098750
+    second: Lava Tileset_1_20
+  - first:
+      213: -4264761488772689335
+    second: Lava Tileset_1_21
+  - first:
+      213: 6335130508372794757
+    second: Lava Tileset_1_22
+  - first:
+      213: -3683390257269561023
+    second: Lava Tileset_1_23
+  - first:
+      213: -831810627322267167
+    second: Lava Tileset_1_24
+  - first:
+      213: -7902734330743245976
+    second: Lava Tileset_1_25
+  - first:
+      213: 4656001698818602334
+    second: Lava Tileset_1_26
+  - first:
+      213: 5635263311675502542
+    second: Lava Tileset_1_27
+  - first:
+      213: -1432125086131127536
+    second: Lava Tileset_1_28
+  - first:
+      213: 1223396800980537568
+    second: Lava Tileset_1_29
+  - first:
+      213: 8540430821452985630
+    second: Lava Tileset_1_30
+  - first:
+      213: -2189637485532149412
+    second: Lava Tileset_1_31
+  - first:
+      213: 7447407737141095122
+    second: Lava Tileset_1_32
+  - first:
+      213: 8390261619698970228
+    second: Lava Tileset_1_33
+  - first:
+      213: -7850760979121457626
+    second: Lava Tileset_1_34
+  - first:
+      213: 2590305833545460804
+    second: Lava Tileset_1_35
+  - first:
+      213: 2210446483549587755
+    second: Lava Tileset_1_36
+  - first:
+      213: 7475077029631751074
+    second: Lava Tileset_1_37
+  - first:
+      213: 6736239397387949014
+    second: Lava Tileset_1_38
+  - first:
+      213: 2623332128434813202
+    second: Lava Tileset_1_39
+  - first:
+      213: -4044540554567092935
+    second: Lava Tileset_1_40
+  - first:
+      213: 7598830195460382487
+    second: Lava Tileset_1_41
+  - first:
+      213: -3533655799998018968
+    second: Lava Tileset_1_42
+  - first:
+      213: 2206455269397797574
+    second: Lava Tileset_1_43
+  - first:
+      213: -1195946542872270411
+    second: Lava Tileset_1_44
+  - first:
+      213: -6699586284905027621
+    second: Lava Tileset_1_45
+  - first:
+      213: 9165073387969775716
+    second: Lava Tileset_1_46
+  - first:
+      213: -6602816758911851727
+    second: Lava Tileset_1_47
+  - first:
+      213: -7869067660608993489
+    second: Lava Tileset_1_48
+  - first:
+      213: -6783918095295197758
+    second: Lava Tileset_1_49
+  - first:
+      213: 7336412895743687815
+    second: Lava Tileset_1_50
+  - first:
+      213: -7824857554404819467
+    second: Lava Tileset_1_51
+  - first:
+      213: -696234192758899239
+    second: Lava Tileset_1_52
+  - first:
+      213: -3165759266928659404
+    second: Lava Tileset_1_53
+  - first:
+      213: 2801533515491473365
+    second: Lava Tileset_1_54
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lava Tileset_1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619d8e617fd189ca0800000000000000
+      internalID: -6010020755647440618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee310fa4e38ab0a0800000000000000
+      internalID: -6865029663761023257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c81bc74dccd5d90800000000000000
+      internalID: -7107299423923631022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dece7f48b8defe40800000000000000
+      internalID: 5692225265162178263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e06f617423e4720800000000000000
+      internalID: 2832256496571911828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0303a3bb3bef7e4f0800000000000000
+      internalID: -799390360941219792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da184d0ac8401770800000000000000
+      internalID: 8579437322784217810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac9b13d228dcbfd0800000000000000
+      internalID: -2324745663547728728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9b727e6aa614bf0800000000000000
+      internalID: -341874831628191306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38aefd36f881cc40800000000000000
+      internalID: 5530852408571111485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030f1088c8323ee60800000000000000
+      internalID: 7990269250369613872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c61b3b9e659a0c00800000000000000
+      internalID: 867670180505523912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab896132838dbb0800000000000000
+      internalID: -4911113670293407077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 199
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2641f203274f44a0800000000000000
+      internalID: -6606983912630434258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71834f91c286e020800000000000000
+      internalID: 2370726021969445245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528ff33cd0811730800000000000000
+      internalID: 3968094429943661150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f58df935a1516d00800000000000000
+      internalID: 964141565318366708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2624b5c637c20220800000000000000
+      internalID: 2450740185302050348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30f7efb3717de010800000000000000
+      internalID: 1219755816042098750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94210f9850680d4c0800000000000000
+      internalID: -4264761488772689335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ddc45e1a7eae750800000000000000
+      internalID: 6335130508372794757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14920529318f1ecc0800000000000000
+      internalID: -3683390257269561023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9bf0e34a0d474f0800000000000000
+      internalID: -831810627322267167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b3c52ff8d35290800000000000000
+      internalID: -7902734330743245976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b2b360e07d9040800000000000000
+      internalID: 4656001698818602334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfa534002a743e40800000000000000
+      internalID: 5635263311675502542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b7a3762d1102ce0800000000000000
+      internalID: -1432125086131127536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e05bcd98e06af010800000000000000
+      internalID: 1223396800980537568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15b08d3594b58670800000000000000
+      internalID: 8540430821452985630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 135
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590affde48dc91e0800000000000000
+      internalID: -2189637485532149412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c691c7e6d92f320800000000000000
+      internalID: 2590305833545460804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b290cf68d551dae10800000000000000
+      internalID: 2210446483549587755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3f1eb24feccb760800000000000000
+      internalID: 7475077029631751074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3dc43ba0eeb7d50800000000000000
+      internalID: 6736239397387949014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935fd556bc7eed7c0800000000000000
+      internalID: -4044540554567092935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f9dec6dc7747960800000000000000
+      internalID: 7598830195460382487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a8e92a5cee5fec0800000000000000
+      internalID: -3533655799998018968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca9e319067ee9e10800000000000000
+      internalID: 2206455269397797574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7282215c94603a0800000000000000
+      internalID: -6699586284905027621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468035e00b1e03f70800000000000000
+      internalID: 9165073387969775716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133201814251e54a0800000000000000
+      internalID: -6602816758911851727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2703ef97a47bc290800000000000000
+      internalID: -7869067660608993489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cb560a8ac20d560800000000000000
+      internalID: 7336412895743687815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_51
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd3bab1385886390800000000000000
+      internalID: -7824857554404819467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_52
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddff14c0ba7656f0800000000000000
+      internalID: -696234192758899239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava Tileset_1_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434f05a38b6f014d0800000000000000
+      internalID: -3165759266928659404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

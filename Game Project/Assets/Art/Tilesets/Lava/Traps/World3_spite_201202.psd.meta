@@ -1,0 +1,1160 @@
+fileFormatVersion: 2
+guid: 8000ee0e9c5fea04881a9d5595fd7883
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2870382123249407793
+    second: World3_spite_201202_0
+  - first:
+      213: -5164709667144009580
+    second: World3_spite_201202_1
+  - first:
+      213: 6096458686201925080
+    second: World3_spite_201202_2
+  - first:
+      213: 1452592687992775086
+    second: World3_spite_201202_3
+  - first:
+      213: -1452604613021590140
+    second: World3_spite_201202_4
+  - first:
+      213: -8751409804129450179
+    second: World3_spite_201202_5
+  - first:
+      213: 6484189368974164926
+    second: World3_spite_201202_6
+  - first:
+      213: -1296913079289600412
+    second: World3_spite_201202_7
+  - first:
+      213: 823097720333520378
+    second: World3_spite_201202_8
+  - first:
+      213: -4287172106989861971
+    second: World3_spite_201202_9
+  - first:
+      213: 4302545627611931888
+    second: World3_spite_201202_10
+  - first:
+      213: 56418534921733113
+    second: World3_spite_201202_11
+  - first:
+      213: -7270419950322906998
+    second: World3_spite_201202_12
+  - first:
+      213: -9166348798696183258
+    second: World3_spite_201202_13
+  - first:
+      213: -175617853618777947
+    second: World3_spite_201202_14
+  - first:
+      213: -452936365764823739
+    second: World3_spite_201202_15
+  - first:
+      213: -5440428024196590560
+    second: World3_spite_201202_16
+  - first:
+      213: -8524277980425233919
+    second: World3_spite_201202_17
+  - first:
+      213: -6374864444066037604
+    second: World3_spite_201202_18
+  - first:
+      213: -1108454704022958406
+    second: World3_spite_201202_19
+  - first:
+      213: -8072243772076931481
+    second: World3_spite_201202_20
+  - first:
+      213: 6886818425418044798
+    second: World3_spite_201202_21
+  - first:
+      213: 8545737628256151795
+    second: World3_spite_201202_22
+  - first:
+      213: -2021990730838734453
+    second: World3_spite_201202_23
+  - first:
+      213: 6221958300431257028
+    second: World3_spite_201202_24
+  - first:
+      213: -5316545461060885751
+    second: World3_spite_201202_25
+  - first:
+      213: 4172939290306045256
+    second: World3_spite_201202_26
+  - first:
+      213: -1337078503373270993
+    second: World3_spite_201202_27
+  - first:
+      213: -4250128828206431659
+    second: World3_spite_201202_28
+  - first:
+      213: -7254119458903378056
+    second: World3_spite_201202_29
+  - first:
+      213: 8454349201905692095
+    second: World3_spite_201202_30
+  - first:
+      213: 5704294981329238824
+    second: World3_spite_201202_31
+  - first:
+      213: 5959462859102750977
+    second: World3_spite_201202_32
+  - first:
+      213: -7720230897150303931
+    second: World3_spite_201202_33
+  - first:
+      213: -6428384875824073257
+    second: World3_spite_201202_34
+  - first:
+      213: -792692435085163425
+    second: World3_spite_201202_35
+  - first:
+      213: -9190325552250995437
+    second: World3_spite_201202_36
+  - first:
+      213: -5684454305656916581
+    second: World3_spite_201202_37
+  - first:
+      213: -4833012304984571048
+    second: World3_spite_201202_38
+  - first:
+      213: 2815120448113904379
+    second: World3_spite_201202_39
+  - first:
+      213: 418649691752535028
+    second: World3_spite_201202_40
+  - first:
+      213: 765043011273564069
+    second: World3_spite_201202_41
+  - first:
+      213: 8317028586754725837
+    second: World3_spite_201202_42
+  - first:
+      213: -8829562240499539972
+    second: World3_spite_201202_43
+  - first:
+      213: -907379285865845817
+    second: World3_spite_201202_44
+  - first:
+      213: -6956402899928080339
+    second: World3_spite_201202_45
+  - first:
+      213: 525523660363313010
+    second: World3_spite_201202_46
+  - first:
+      213: 4045133120887975750
+    second: World3_spite_201202_47
+  - first:
+      213: -5244012912306879232
+    second: World3_spite_201202_48
+  - first:
+      213: 4992165527519667612
+    second: World3_spite_201202_49
+  - first:
+      213: 4571428533760096182
+    second: World3_spite_201202_50
+  - first:
+      213: -7718215958784950139
+    second: World3_spite_201202_51
+  - first:
+      213: -3931989908882915941
+    second: World3_spite_201202_52
+  - first:
+      213: -5467033449238255164
+    second: World3_spite_201202_53
+  - first:
+      213: -5470941500745086668
+    second: World3_spite_201202_54
+  - first:
+      213: 6780872047115795193
+    second: World3_spite_201202_55
+  - first:
+      213: -6346707574538485828
+    second: World3_spite_201202_56
+  - first:
+      213: 8409643739341160706
+    second: World3_spite_201202_57
+  - first:
+      213: 4709493139094221748
+    second: World3_spite_201202_58
+  - first:
+      213: 3143646046223789849
+    second: World3_spite_201202_59
+  - first:
+      213: 526191018724250084
+    second: World3_spite_201202_60
+  - first:
+      213: 7284077721574604247
+    second: World3_spite_201202_61
+  - first:
+      213: 7653928321475419029
+    second: World3_spite_201202_62
+  - first:
+      213: -3281420152373012928
+    second: World3_spite_201202_63
+  - first:
+      213: -9189048755601224992
+    second: World3_spite_201202_64
+  - first:
+      213: 2478647803407426678
+    second: World3_spite_201202_65
+  - first:
+      213: 8422420639488906433
+    second: World3_spite_201202_66
+  - first:
+      213: 4921308317627646715
+    second: World3_spite_201202_67
+  - first:
+      213: -1648268308141583914
+    second: World3_spite_201202_68
+  - first:
+      213: -3431835764692207930
+    second: World3_spite_201202_69
+  - first:
+      213: 5336758846906863411
+    second: World3_spite_201202_70
+  - first:
+      213: -2895433262514655753
+    second: World3_spite_201202_71
+  - first:
+      213: -5701496512604299599
+    second: World3_spite_201202_72
+  - first:
+      213: 2035637735219472482
+    second: World3_spite_201202_73
+  - first:
+      213: -3978359161614703064
+    second: World3_spite_201202_74
+  - first:
+      213: -3372700617815714561
+    second: World3_spite_201202_75
+  - first:
+      213: 2508359845714556309
+    second: World3_spite_201202_76
+  - first:
+      213: -6861639561464975204
+    second: World3_spite_201202_77
+  - first:
+      213: 4008439956279214734
+    second: World3_spite_201202_78
+  - first:
+      213: 4776999405642024242
+    second: World3_spite_201202_79
+  - first:
+      213: 1511571725718410506
+    second: World3_spite_201202_80
+  - first:
+      213: 3166973038005813972
+    second: World3_spite_201202_81
+  - first:
+      213: 8548271915834146642
+    second: World3_spite_201202_82
+  - first:
+      213: -262117153572422045
+    second: World3_spite_201202_83
+  - first:
+      213: -1718958037232250174
+    second: World3_spite_201202_84
+  - first:
+      213: -9184485473622704258
+    second: World3_spite_201202_85
+  - first:
+      213: 3559989384657687088
+    second: World3_spite_201202_86
+  - first:
+      213: 9060873319666445042
+    second: World3_spite_201202_87
+  - first:
+      213: -8832940751432766623
+    second: World3_spite_201202_88
+  - first:
+      213: -2273889293976152718
+    second: World3_spite_201202_89
+  - first:
+      213: -3610934413200350281
+    second: World3_spite_201202_90
+  - first:
+      213: -4700951095765117510
+    second: World3_spite_201202_91
+  - first:
+      213: 2930558296323147803
+    second: World3_spite_201202_92
+  - first:
+      213: -8840063701338704735
+    second: World3_spite_201202_93
+  - first:
+      213: 7905717871629627558
+    second: World3_spite_201202_94
+  - first:
+      213: -4355861353282609974
+    second: World3_spite_201202_95
+  - first:
+      213: 236100851542030381
+    second: World3_spite_201202_96
+  - first:
+      213: -3165321762180676902
+    second: World3_spite_201202_97
+  - first:
+      213: -3477096443396951552
+    second: World3_spite_201202_98
+  - first:
+      213: 3622612729129145184
+    second: World3_spite_201202_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World3_spite_201202_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13799e94555a5d720800000000000000
+      internalID: 2870382123249407793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498fad9ebe34358b0800000000000000
+      internalID: -5164709667144009580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd09eaefd8fa9450800000000000000
+      internalID: 6096458686201925080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1a3238a55a82410800000000000000
+      internalID: 1452592687992775086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d11c9fccf47dbe0800000000000000
+      internalID: -1452604613021590140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d374efc662fbc8680800000000000000
+      internalID: -8751409804129450179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c11a50e77cf950800000000000000
+      internalID: 6484189368974164926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdc9e3040b3c6b00800000000000000
+      internalID: 823097720333520378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da308efdea7e084c0800000000000000
+      internalID: -4287172106989861971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f428b3d376b5bb30800000000000000
+      internalID: 4302545627611931888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f302cccb5078c000800000000000000
+      internalID: 56418534921733113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 262
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88071553974a1b90800000000000000
+      internalID: -7270419950322906998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 262
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa26e35569ac080800000000000000
+      internalID: -9166348798696183258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 262
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a016da1e74109df0800000000000000
+      internalID: -175617853618777947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 262
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5453bbc66c8d6b9f0800000000000000
+      internalID: -452936365764823739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 262
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0249eaf5987bf74b0800000000000000
+      internalID: -5440428024196590560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c900d28409ee787a0800000000000000
+      internalID: -6374864444066037604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abec91dc15afd90f0800000000000000
+      internalID: -1108454704022958406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89893da42270f3e0800000000000000
+      internalID: -2021990730838734453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd8f70eb16d85650800000000000000
+      internalID: 6221958300431257028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 262
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90320494216d736b0800000000000000
+      internalID: -5316545461060885751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 262
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84566f3ec2249e930800000000000000
+      internalID: 4172939290306045256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 262
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2010a17f2eb17de0800000000000000
+      internalID: -1337078503373270993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 262
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd22ba5ec1e35570800000000000000
+      internalID: 8454349201905692095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 198
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b3c28101ab92f40800000000000000
+      internalID: 5704294981329238824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 198
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10904f055e344b250800000000000000
+      internalID: 5959462859102750977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 198
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5416c5f07ea3cd490800000000000000
+      internalID: -7720230897150303931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 198
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d53305b30ac9c6a0800000000000000
+      internalID: -6428384875824073257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 198
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f540c9e1e6acff4f0800000000000000
+      internalID: -792692435085163425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7fadee70af07f30800000000000000
+      internalID: 4571428533760096182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_51
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 6
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5804fd47a7363e490800000000000000
+      internalID: -7718215958784950139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 6
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dfc9ca204ce69c0800000000000000
+      internalID: -3931989908882915941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_53
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 6
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9a9f22b023124b0800000000000000
+      internalID: -5467033449238255164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 6
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439852df0bf4314b0800000000000000
+      internalID: -5470941500745086668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_55
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 6
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa76b3433f7a1e50800000000000000
+      internalID: 6780872047115795193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World3_spite_201202_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466a26cfc60700ee0800000000000000
+      internalID: -1296913079289600412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
