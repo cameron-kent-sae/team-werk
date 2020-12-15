@@ -14,7 +14,7 @@ public class playermovement : MonoBehaviour
 
     // Creating transform points
     public Transform grapplePoint;
-    //public Transform spawn;
+    public Transform spawn;
 
     public float health = 1f;
 
@@ -63,9 +63,8 @@ public class playermovement : MonoBehaviour
         }
         if (health <= 0)
         {
-            //gameObject.transform.position = spawn.position;
-            health = 1;
-            Application.LoadLevel(Application.loadedLevel);
+            //Invoke("RespawnPlayer", 2);
+            StartCoroutine(Dead());
         }
     }
 
@@ -94,9 +93,23 @@ public class playermovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Damage") || other.gameObject.CompareTag("AI"))
         {
-            Debug.Log("dead");
+            animator.SetBool("IsDead", true);
             health -= 1;
-            // die animation here ****
+            
         }
+    }
+
+    private void RespawnPlayer()
+    {
+        gameObject.transform.position = spawn.position;
+        animator.SetBool("IsDead", false);
+        health = 1;
+    }
+
+    //when the player die, wait a sec and reload the scene
+    IEnumerator Dead()
+    {
+        yield return new WaitForSeconds(1);
+        Application.LoadLevel(Application.loadedLevel); 
     }
 }
