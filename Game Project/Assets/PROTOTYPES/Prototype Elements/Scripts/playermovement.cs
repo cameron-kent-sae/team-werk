@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playermovement : MonoBehaviour
 {
@@ -62,8 +63,8 @@ public class playermovement : MonoBehaviour
         }
         if (health <= 0)
         {
-            Invoke("RespawnPlayer", 2);
-            //Application.LoadLevel(Application.loadedLevel);
+            //Invoke("RespawnPlayer", 2);
+            StartCoroutine(Dead());
         }
     }
 
@@ -103,5 +104,12 @@ public class playermovement : MonoBehaviour
         gameObject.transform.position = spawn.position;
         animator.SetBool("IsDead", false);
         health = 1;
+    }
+
+    //when the player die, wait a sec and reload the scene
+    IEnumerator Dead()
+    {
+        yield return new WaitForSeconds(1);
+        Application.LoadLevel(Application.loadedLevel); 
     }
 }
