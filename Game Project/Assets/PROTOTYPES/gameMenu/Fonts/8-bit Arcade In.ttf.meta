@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8be42775f05a4694188dad0fbf9c19f3
+guid: 2f45263fd3817a24ea274af0f623ec50
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: 8-bit Arcade Out
+  fontName: 8-bit Arcade In
   fontNames:
-  - 8-bit Arcade Out
+  - 8-bit Arcade In
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

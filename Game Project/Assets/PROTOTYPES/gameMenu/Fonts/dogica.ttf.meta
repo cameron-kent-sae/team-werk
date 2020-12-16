@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3394494caa514874c8116d4345acef90
+guid: 9e7c38437f8d61749844583d826de776
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,8 @@ TrueTypeFontImporter:
   fontName: Dogica
   fontNames:
   - Dogica
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3394494caa514874c8116d4345acef90, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

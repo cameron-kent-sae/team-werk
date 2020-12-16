@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1defaca01838b36428788a4d09cea3c9
+guid: 010e9ee0fba54b6468ae85127286c09d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,11 +8,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Dogica
+  fontName: Dogica Pixel
   fontNames:
-  - Dogica
+  - Dogica Pixel
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 3394494caa514874c8116d4345acef90, type: 3}
+  - {fileID: 12800000, guid: 0574031e6b2f7a64eb3f3c1c8137cdf4, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
