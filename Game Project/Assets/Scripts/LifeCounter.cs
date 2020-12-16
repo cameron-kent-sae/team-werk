@@ -1,25 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LifeCounter : MonoBehaviour
 {
-    public int playerLives;
-    public Text lifeCountText;
+    public int playerLives = 99;
+    public TMP_Text lifeCountText;
 
     private void Start()
     {
-        lifeCountText = GameObject.Find("LifeCountText").GetComponent<Text>();
+        lifeCountText = GameObject.Find("LifeCountText").GetComponent<TMP_Text>();
     }
 
     private void Update()
     {
-        if (playerLives == 0)
-        {
-            SceneManager.LoadScene("menu_LoseCondition");
-        }
+        UpdateLifeDisplay();
     }
 
     //Remove a life from the counter when the character dies
@@ -40,5 +38,9 @@ public class LifeCounter : MonoBehaviour
     public void UpdateLifeDisplay()
     {
         lifeCountText.text = playerLives.ToString();
+        if (playerLives == 0)
+        {
+            SceneManager.LoadScene("menu_LoseCondition");
+        }
     }
 }
