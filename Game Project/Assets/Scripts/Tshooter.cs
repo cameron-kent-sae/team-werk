@@ -7,6 +7,9 @@ public class Tshooter : MonoBehaviour
     public Transform shootPoint;  //shooting point
     public GameObject bullet; //bullet Object
 
+    public Animator animator;
+    //public bool trigger;
+
     private float time = 0;
 
     [Range(0, 5)]
@@ -29,6 +32,7 @@ public class Tshooter : MonoBehaviour
         //Instantiaste the bullet if shoot in true
         if (shoot == true)
         {
+            animator.SetBool("trigger", true);
             if (time < Time.time)
             {
                 Instantiate(bullet, shootPoint.position, shootPoint.rotation);
@@ -44,6 +48,7 @@ public class Tshooter : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             shoot = true;
+            animator.SetBool("trigger", true);
         }
     }
 
@@ -51,7 +56,8 @@ public class Tshooter : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            shoot = false;   
+            shoot = false;
+            animator.SetBool("trigger", false);
         }
     }
 }

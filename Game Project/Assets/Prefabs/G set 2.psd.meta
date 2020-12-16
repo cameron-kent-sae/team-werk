@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: f77259f5cc0ef8344aeb57df802068c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6212018925503864302
+    second: G set 2_0
+  - first:
+      213: -1249473258564338677
+    second: G set 2_1
+  - first:
+      213: -4571093215641428908
+    second: G set 2_2
+  - first:
+      213: -2508040626550190000
+    second: G set 2_3
+  - first:
+      213: -6782690122460790126
+    second: G set 2_4
+  - first:
+      213: -2749596792953658149
+    second: G set 2_5
+  - first:
+      213: -169326318512692035
+    second: G set 2_6
+  - first:
+      213: -90070776385617037
+    second: G set 2_7
+  - first:
+      213: 2476038355791758830
+    second: G set 2_8
+  - first:
+      213: -1650410961578953414
+    second: G set 2_9
+  - first:
+      213: 219836824204359323
+    second: G set 2_10
+  - first:
+      213: 2678208740793977565
+    second: G set 2_11
+  - first:
+      213: 433597007561519584
+    second: G set 2_12
+  - first:
+      213: -2958298827721681636
+    second: G set 2_13
+  - first:
+      213: -1408787644668829020
+    second: G set 2_14
+  - first:
+      213: 2431949103307245209
+    second: G set 2_15
+  - first:
+      213: 4213469837987130601
+    second: G set 2_16
+  - first:
+      213: 7778867614635757625
+    second: G set 2_17
+  - first:
+      213: -4997268147085162318
+    second: G set 2_18
+  - first:
+      213: -348163240673108265
+    second: G set 2_19
+  - first:
+      213: -6849536830634258763
+    second: G set 2_20
+  - first:
+      213: -8890634035300042248
+    second: G set 2_21
+  - first:
+      213: -3096720657125749391
+    second: G set 2_22
+  - first:
+      213: 3826567131434033333
+    second: G set 2_23
+  - first:
+      213: -8080314716060844499
+    second: G set 2_24
+  - first:
+      213: -2755075794726260957
+    second: G set 2_25
+  - first:
+      213: 4911478666824069804
+    second: G set 2_26
+  - first:
+      213: -1290167298722310915
+    second: G set 2_27
+  - first:
+      213: 8447704029862531455
+    second: G set 2_28
+  - first:
+      213: -527582137634204349
+    second: G set 2_29
+  - first:
+      213: -783401795410243517
+    second: G set 2_30
+  - first:
+      213: -5623679751249217321
+    second: G set 2_31
+  - first:
+      213: -2100070794975527543
+    second: G set 2_32
+  - first:
+      213: 8511868949313745023
+    second: G set 2_33
+  - first:
+      213: 7016939857622039108
+    second: G set 2_34
+  - first:
+      213: 988362921667153130
+    second: G set 2_35
+  - first:
+      213: 4350895261320479833
+    second: G set 2_36
+  - first:
+      213: -4051908249468613364
+    second: G set 2_37
+  - first:
+      213: 338705510596955228
+    second: G set 2_38
+  - first:
+      213: 4472513220670893355
+    second: G set 2_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: G set 2_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212a65f23b97ac9a0800000000000000
+      internalID: -6212018925503864302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c3ceaf0baf8aee0800000000000000
+      internalID: -1249473258564338677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c9e7660f63090c0800000000000000
+      internalID: -4571093215641428908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0505a3c9656a13dd0800000000000000
+      internalID: -2508040626550190000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5c53714c7ac5220800000000000000
+      internalID: 2476038355791758830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35fca589ff8819e0800000000000000
+      internalID: -1650410961578953414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9630474d640d0300800000000000000
+      internalID: 219836824204359323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda0f55f8a8ea2520800000000000000
+      internalID: 2678208740793977565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dbf461dbc0bd2e0800000000000000
+      internalID: -2100070794975527543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G set 2_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70f58a26bb302670800000000000000
+      internalID: 8511868949313745023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -397,7 +397,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 16.431837
+  m_Distance: 10.189917
   m_MaxDistanceOnly: 1
 --- !u!120 &9191062438532424735
 LineRenderer:
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
-  m_Color: {r: 0.9883943, g: 1, b: 0.3254717, a: 1}
+  m_Color: {r: 0.9976141, g: 1, b: 0.8632076, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
