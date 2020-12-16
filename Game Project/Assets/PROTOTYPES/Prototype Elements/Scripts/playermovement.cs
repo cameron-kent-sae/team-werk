@@ -64,7 +64,10 @@ public class playermovement : MonoBehaviour
         if (health <= 0)
         {
             //Invoke("RespawnPlayer", 2);
+
+            health = 1;
             StartCoroutine(Dead());
+
         }
     }
 
