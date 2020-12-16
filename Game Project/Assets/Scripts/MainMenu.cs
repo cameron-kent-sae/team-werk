@@ -12,6 +12,12 @@ public class MainMenu : MonoBehaviour
     public Button quitButton;
     public string gameScene;
     public string optionsScene;
+
+    private void Awake()
+    {
+        GameplayData.Lives = 99;
+    }
+
     public void Start()
     {
         //GetComponent to add listeners to button clicks

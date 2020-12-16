@@ -7,11 +7,12 @@ using UnityEngine.UI;
 
 public class LifeCounter : MonoBehaviour
 {
-    public int playerLives = 99;
+    public int playerLives;
     public TMP_Text lifeCountText;
 
     private void Start()
     {
+        playerLives = GameplayData.Lives;
         lifeCountText = GameObject.Find("LifeCountText").GetComponent<TMP_Text>();
     }
 
@@ -24,6 +25,11 @@ public class LifeCounter : MonoBehaviour
     public void LoseLife()
     {
         playerLives = playerLives - 1;
+        GameplayData.Lives = playerLives;
+        if (playerLives == 0)
+        {
+            SceneManager.LoadScene("menu_LoseCondition");
+        }
         UpdateLifeDisplay();
     }
 
@@ -31,6 +37,7 @@ public class LifeCounter : MonoBehaviour
     public void AddLife()
     {
         playerLives = playerLives + 1;
+        GameplayData.Lives = playerLives;
         UpdateLifeDisplay();
     }
 
@@ -38,9 +45,5 @@ public class LifeCounter : MonoBehaviour
     public void UpdateLifeDisplay()
     {
         lifeCountText.text = playerLives.ToString();
-        if (playerLives == 0)
-        {
-            SceneManager.LoadScene("menu_LoseCondition");
-        }
     }
 }
