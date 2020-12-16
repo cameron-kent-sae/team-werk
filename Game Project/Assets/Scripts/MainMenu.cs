@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
-
 {
     //button functionalities to alternate between scenes
     public Button playButton;
