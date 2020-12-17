@@ -41,8 +41,6 @@ public class TGravity : MonoBehaviour
         }
     }
 
-
-    //Showing message to press the button 
     void OnTriggerExit2D(Collider2D trigger)
     {
         if (trigger.gameObject.CompareTag("Gravity Button"))

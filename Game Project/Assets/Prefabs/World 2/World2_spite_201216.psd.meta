@@ -1,0 +1,1094 @@
+fileFormatVersion: 2
+guid: fa6030a9bee80ce4eabe0180feece0ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8093546304227876648
+    second: World2_spite_201216_0
+  - first:
+      213: 3045647499036874948
+    second: World2_spite_201216_1
+  - first:
+      213: -3126321428025076052
+    second: World2_spite_201216_2
+  - first:
+      213: -4324003993210261961
+    second: World2_spite_201216_3
+  - first:
+      213: -4345092397041640681
+    second: World2_spite_201216_4
+  - first:
+      213: -1114917094744291931
+    second: World2_spite_201216_5
+  - first:
+      213: -9027187637428134919
+    second: World2_spite_201216_6
+  - first:
+      213: 341973747894689636
+    second: World2_spite_201216_7
+  - first:
+      213: 4630089725500882535
+    second: World2_spite_201216_8
+  - first:
+      213: 9141563559331004130
+    second: World2_spite_201216_9
+  - first:
+      213: -7623245355474531482
+    second: World2_spite_201216_10
+  - first:
+      213: 2287546310118526104
+    second: World2_spite_201216_11
+  - first:
+      213: -1902376758466749363
+    second: World2_spite_201216_12
+  - first:
+      213: -8195034222701454639
+    second: World2_spite_201216_13
+  - first:
+      213: -7673439957406829717
+    second: World2_spite_201216_14
+  - first:
+      213: 6090506153166643387
+    second: World2_spite_201216_15
+  - first:
+      213: 1336832458341288661
+    second: World2_spite_201216_16
+  - first:
+      213: 8985391047550655142
+    second: World2_spite_201216_17
+  - first:
+      213: 8246523537661931941
+    second: World2_spite_201216_18
+  - first:
+      213: 6697429847701750561
+    second: World2_spite_201216_19
+  - first:
+      213: -5680216903520480336
+    second: World2_spite_201216_20
+  - first:
+      213: 7252838876212021525
+    second: World2_spite_201216_21
+  - first:
+      213: -8991702895681759073
+    second: World2_spite_201216_22
+  - first:
+      213: 5540898040577671284
+    second: World2_spite_201216_23
+  - first:
+      213: -7977021227411957839
+    second: World2_spite_201216_24
+  - first:
+      213: -7847132703976181436
+    second: World2_spite_201216_25
+  - first:
+      213: -1173677415383990648
+    second: World2_spite_201216_26
+  - first:
+      213: -8579555031520073834
+    second: World2_spite_201216_27
+  - first:
+      213: -25228387396312906
+    second: World2_spite_201216_28
+  - first:
+      213: -2380777377361294282
+    second: World2_spite_201216_29
+  - first:
+      213: 4854530144403162877
+    second: World2_spite_201216_30
+  - first:
+      213: -8399745913800137540
+    second: World2_spite_201216_31
+  - first:
+      213: 1923365250737225497
+    second: World2_spite_201216_32
+  - first:
+      213: 922158742636333364
+    second: World2_spite_201216_33
+  - first:
+      213: 3264181749429598144
+    second: World2_spite_201216_34
+  - first:
+      213: 7003812395086465023
+    second: World2_spite_201216_35
+  - first:
+      213: 7727480238444825072
+    second: World2_spite_201216_36
+  - first:
+      213: 819758940316395340
+    second: World2_spite_201216_37
+  - first:
+      213: 3148088303858878337
+    second: World2_spite_201216_38
+  - first:
+      213: 6927092696928508935
+    second: World2_spite_201216_39
+  - first:
+      213: -2289698851108910339
+    second: World2_spite_201216_40
+  - first:
+      213: 255867274989384478
+    second: World2_spite_201216_41
+  - first:
+      213: 8007284894626342277
+    second: World2_spite_201216_42
+  - first:
+      213: 4670747899296865565
+    second: World2_spite_201216_43
+  - first:
+      213: -7951650304566002280
+    second: World2_spite_201216_44
+  - first:
+      213: 8283240536643498405
+    second: World2_spite_201216_45
+  - first:
+      213: 6856858502075621832
+    second: World2_spite_201216_46
+  - first:
+      213: 4418027757482137457
+    second: World2_spite_201216_47
+  - first:
+      213: -7944741193609852
+    second: World2_spite_201216_48
+  - first:
+      213: -1149968332537633525
+    second: World2_spite_201216_49
+  - first:
+      213: 4609474420842525866
+    second: World2_spite_201216_50
+  - first:
+      213: -2527051933672386094
+    second: World2_spite_201216_51
+  - first:
+      213: -6633585325046070782
+    second: World2_spite_201216_52
+  - first:
+      213: 5776991425687852624
+    second: World2_spite_201216_53
+  - first:
+      213: 7984968875271297929
+    second: World2_spite_201216_54
+  - first:
+      213: 8233956710670617890
+    second: World2_spite_201216_55
+  - first:
+      213: 1808446663805523211
+    second: World2_spite_201216_56
+  - first:
+      213: 7047213912085723464
+    second: World2_spite_201216_57
+  - first:
+      213: -5928601521379527930
+    second: World2_spite_201216_58
+  - first:
+      213: -1395482939967191746
+    second: World2_spite_201216_59
+  - first:
+      213: 5509074322706171048
+    second: World2_spite_201216_60
+  - first:
+      213: 8324485762074616728
+    second: World2_spite_201216_61
+  - first:
+      213: 6214720318200465845
+    second: World2_spite_201216_62
+  - first:
+      213: 4594235307419401901
+    second: World2_spite_201216_63
+  - first:
+      213: -1080895920385278375
+    second: World2_spite_201216_64
+  - first:
+      213: -8014375186245749927
+    second: World2_spite_201216_65
+  - first:
+      213: -4585241208154334794
+    second: World2_spite_201216_66
+  - first:
+      213: -1677415228100562329
+    second: World2_spite_201216_67
+  - first:
+      213: 4197222725717840102
+    second: World2_spite_201216_68
+  - first:
+      213: -7388556413533943687
+    second: World2_spite_201216_69
+  - first:
+      213: 2816547993580818408
+    second: World2_spite_201216_70
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World2_spite_201216_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0625b8482fdaf80800000000000000
+      internalID: -8093546304227876648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8562b8340544a20800000000000000
+      internalID: 3045647499036874948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca69fd4a9331d94d0800000000000000
+      internalID: -3126321428025076052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ee459174d0ef3c0800000000000000
+      internalID: -4324003993210261961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b15167c7123b3c0800000000000000
+      internalID: -4345092397041640681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a581c53fc40780f0800000000000000
+      internalID: -1114917094744291931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb5c4efbacf8b280800000000000000
+      internalID: -9027187637428134919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f95c5df4feeb400800000000000000
+      internalID: 341973747894689636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 294
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e7aa6f212614040800000000000000
+      internalID: 4630089725500882535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cced5cf3ffebf10800000000000000
+      internalID: 2287546310118526104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c51aada666995e0800000000000000
+      internalID: -1902376758466749363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad5b92bc3654e80800000000000000
+      internalID: -8195034222701454639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b633a7da307728590800000000000000
+      internalID: -7673439957406829717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da05abb9026d8210800000000000000
+      internalID: 1336832458341288661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa5b351d8582bc70800000000000000
+      internalID: 8985391047550655142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1bc3e2779817270800000000000000
+      internalID: 8246523537661931941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e732feb9246bfe0800000000000000
+      internalID: -1173677415383990648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697a45fb72c4fe880800000000000000
+      internalID: -8579555031520073834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13b3635ee50d8300800000000000000
+      internalID: 255867274989384478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_42
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585ed8fef279f1f60800000000000000
+      internalID: 8007284894626342277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dddfcb774d1d040800000000000000
+      internalID: 4670747899296865565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_44
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d773a7d2016a190800000000000000
+      internalID: -7951650304566002280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_45
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a170cfa16bf3f270800000000000000
+      internalID: 8283240536643498405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_46
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1a55b7a74782f50800000000000000
+      internalID: 6856858502075621832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_47
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d98476dcff4d30800000000000000
+      internalID: 4418027757482137457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d825bcc46c3eff0800000000000000
+      internalID: -7944741193609852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 230
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b056524f4ed7a00f0800000000000000
+      internalID: -1149968332537633525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 134
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4719f409428ff30800000000000000
+      internalID: 4609474420842525866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d15e7cb7ab1eecd0800000000000000
+      internalID: -2527051933672386094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 134
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20282690b45c0f3a0800000000000000
+      internalID: -6633585325046070782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 134
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0561a96081ffb2050800000000000000
+      internalID: 5776991425687852624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_54
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 134
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b9819c2ee40de60800000000000000
+      internalID: 7984968875271297929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_55
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 166
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d4773c004e44270800000000000000
+      internalID: 8233956710670617890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_56
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 166
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b055e5fb8a4e81910800000000000000
+      internalID: 1808446663805523211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 166
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8497f0e17bbbcc160800000000000000
+      internalID: 7047213912085723464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 166
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603355fc35069bda0800000000000000
+      internalID: -5928601521379527930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World2_spite_201216_59
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 166
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e354321e8af32ace0800000000000000
+      internalID: -1395482939967191746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

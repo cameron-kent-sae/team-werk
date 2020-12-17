@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimateSelect : MonoBehaviour
 {
-    //For the trap, create different time pattern animation for choose 
+
     public bool A;
     public bool B;
 
@@ -12,7 +12,6 @@ public class AnimateSelect : MonoBehaviour
 
 void Start()
     {
-        
         if (A == true)
         {
             animator.SetBool("A", true);
