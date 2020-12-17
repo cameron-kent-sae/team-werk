@@ -616,6 +616,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
+--- !u!114 &1873489044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981594357138861402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674477ad73dafd24e823ca02fbab1bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8981594357138861399}
+  attackPoint: {fileID: 8446341529341606176}
+  attackRange: 0.5
+  attackDamage: 100
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 256
+
 --- !u!1 &2066723931
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +876,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+
 --- !u!1001 &6170173175303287676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -930,3 +952,4 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6170173175303287676}
   m_PrefabAsset: {fileID: 0}
+
