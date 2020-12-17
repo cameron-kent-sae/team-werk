@@ -124,8 +124,8 @@ GameObject:
   - component: {fileID: 6213728030538452047}
   - component: {fileID: 6213728030538452046}
   - component: {fileID: 6213728030538452033}
-  - component: {fileID: 6213728030538452045}
   - component: {fileID: 6213728030538452044}
+  - component: {fileID: 8294974786468245082}
   m_Layer: 31
   m_Name: portal
   m_TagString: Untagged
@@ -218,18 +218,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6213728030538452045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6213728030538452032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e7d4bdc066335748a1966a23f35216f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6213728030538452044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -256,6 +244,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13375664, y: 0.9757693}
   m_EdgeRadius: 0
+--- !u!114 &8294974786468245082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6213728030538452032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d4b66b54c07de45b1cccce05b4a25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 1-2
 --- !u!1 &6213728030920585836
 GameObject:
   m_ObjectHideFlags: 0

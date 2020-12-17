@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Exit2 : MonoBehaviour
 {
-
+    public string levelName;
     private int nextScene;
 
     void Start()
@@ -17,7 +17,7 @@ public class Exit2 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(levelName);
         }
     }
 

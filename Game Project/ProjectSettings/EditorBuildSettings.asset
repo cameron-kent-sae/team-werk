@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/menu_Main.unity
     guid: 8d8924100a53f484c8d5b5a5076aecf9
   - enabled: 1
-    path: Assets/Scenes/Menus/menu_ButtonAssign.unity
-    guid: 0bd668b3903b3bb478a9e79c1fcfd899
-  - enabled: 1
-    path: Assets/Scenes/Menus/menu_WinCondition.unity
-    guid: 6eb8a0c85de922b43865e672326613fa
-  - enabled: 1
     path: Assets/Scenes/Levels/World 1/1-1.unity
     guid: 42849ffee473fa44db4ed23c5b219d74
   - enabled: 1
@@ -59,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/World 3/3-5.unity
     guid: 2673cc225dd686e45b04133a3d8eebea
+  - enabled: 1
+    path: Assets/Scenes/Menus/menu_ButtonAssign.unity
+    guid: 0bd668b3903b3bb478a9e79c1fcfd899
+  - enabled: 1
+    path: Assets/Scenes/Menus/menu_WinCondition.unity
+    guid: 6eb8a0c85de922b43865e672326613fa
   m_configObjects: {}

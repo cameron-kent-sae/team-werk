@@ -177,8 +177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootPoint: {fileID: 2050444650406014141}
   bullet: {fileID: 2964808246668771916, guid: fe4b18655b295884d9b4bb4270949c39, type: 3}
+  animator: {fileID: 5409593366328231946}
   bulletDelay: 3
-  fromRight: 0
+  fromRight: 1
   shoot: 1
 --- !u!114 &8927460609956372706
 MonoBehaviour:
