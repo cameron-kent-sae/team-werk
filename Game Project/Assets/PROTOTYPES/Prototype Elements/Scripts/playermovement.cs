@@ -65,9 +65,8 @@ public class playermovement : MonoBehaviour
         {
             //Invoke("RespawnPlayer", 2);
 
+            health = 1;
             StartCoroutine(Dead());
-
-
 
         }
     }
