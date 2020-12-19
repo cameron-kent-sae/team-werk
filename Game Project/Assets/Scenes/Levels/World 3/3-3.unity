@@ -4512,6 +4512,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1905005844}
     m_Modifications:
+    - target: {fileID: 629601812353526724, guid: 6bab4d2365ff83c49beb86570622a52d,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 4.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 629601812353526724, guid: 6bab4d2365ff83c49beb86570622a52d,
+        type: 3}
+      propertyPath: MinDistance
+      value: 2.58
+      objectReference: {fileID: 0}
     - target: {fileID: 5409593366328231947, guid: 6bab4d2365ff83c49beb86570622a52d,
         type: 3}
       propertyPath: m_Name
@@ -9769,6 +9779,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Ceiling laser (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
+        type: 3}
+      propertyPath: A
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
+        type: 3}
+      propertyPath: B
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8daa908725fcf1149966c441debf9246, type: 3}
 --- !u!1 &1665399454
@@ -9932,7 +9952,7 @@ PrefabInstance:
     - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
       propertyPath: B
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
@@ -9942,7 +9962,7 @@ PrefabInstance:
     - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
       propertyPath: A
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8daa908725fcf1149966c441debf9246, type: 3}
@@ -14456,11 +14476,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7408203620522305069, guid: 8daa908725fcf1149966c441debf9246,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 8319341273432693569, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
@@ -21273,7 +21288,7 @@ PrefabInstance:
     - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
       propertyPath: B
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
@@ -21283,7 +21298,7 @@ PrefabInstance:
     - target: {fileID: 8654268053479487581, guid: 8daa908725fcf1149966c441debf9246,
         type: 3}
       propertyPath: A
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8daa908725fcf1149966c441debf9246, type: 3}
