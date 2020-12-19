@@ -26,7 +26,7 @@ public class playercombat : MonoBehaviour
         if (Input.GetButtonDown("attack"))
         {
             Attack();
-            AudioSource.PlayClipAtPoint(attackSound, transform.position);
+            AudioSource.PlayClipAtPoint(attackSound, transform.position,0.1f);
             Debug.Log("attack!");
         }
     }

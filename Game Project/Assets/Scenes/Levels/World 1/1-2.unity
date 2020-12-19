@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -849,7 +849,12 @@ PrefabInstance:
     - target: {fileID: 475991686120549035, guid: cbab960d9b97d8741b21800304efad54,
         type: 3}
       propertyPath: m_Distance
-      value: 10.189917
+      value: 15.5125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472738354733693388, guid: cbab960d9b97d8741b21800304efad54,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6977301778682862180, guid: cbab960d9b97d8741b21800304efad54,
         type: 3}
@@ -911,6 +916,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_WhipHero
       objectReference: {fileID: 0}
+    - target: {fileID: 7279437401820308143, guid: cbab960d9b97d8741b21800304efad54,
+        type: 3}
+      propertyPath: dead
+      value: 
+      objectReference: {fileID: 8300000, guid: 305bdd1c04076c94fb0706f098840c55, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbab960d9b97d8741b21800304efad54, type: 3}
 --- !u!1 &131932264
@@ -19693,7 +19703,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -20001,9 +20011,8 @@ Tilemap:
   - m_RefCount: 3
     m_Data: {fileID: -3547524251014799672, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 3141385035958294391, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 6
     m_Data: {fileID: 5681400738396638909, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
@@ -20025,8 +20034,9 @@ Tilemap:
   - m_RefCount: 8
     m_Data: {fileID: -5476579049123052103, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 3141385035958294391, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
+      type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2302304873536245221, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
@@ -20522,7 +20532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126075239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.4344006, y: -4.545027, z: -7.1972046}
+  m_LocalPosition: {x: -6.435461, y: -4.545022, z: -7.1972046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747687454}

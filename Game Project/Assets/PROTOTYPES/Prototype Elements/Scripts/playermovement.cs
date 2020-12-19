@@ -22,6 +22,7 @@ public class playermovement : MonoBehaviour
     public AudioSource dashSound;
     public AudioClip jumpSound;
     public AudioClip jetpackSound;
+    public AudioClip dead;
 
     // Speed variables
     public float walkSpeed = 40f;
@@ -50,13 +51,14 @@ public class playermovement : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);
-            AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+            AudioSource.PlayClipAtPoint(jumpSound, transform.position,0.1f);
+            
         }
         if (Input.GetButtonDown("Jetpack"))
         {
             jumpJetpack = true;
             animator.SetBool("IsJetpacking", true);
-            AudioSource.PlayClipAtPoint(jetpackSound, transform.position);
+            AudioSource.PlayClipAtPoint(jetpackSound, transform.position, 0.1f);
         }
         if (Input.GetButtonDown("Run"))
         {
@@ -105,6 +107,7 @@ public class playermovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Damage") || other.gameObject.CompareTag("AI"))
         {
+            AudioSource.PlayClipAtPoint(dead, transform.position, 0.1f);
             animator.SetBool("IsDead", true);
             health -= 1;
             
