@@ -18,6 +18,11 @@ public class playermovement : MonoBehaviour
 
     public float health = 1f;
 
+    // Adds Sound Effects
+    public AudioSource dashSound;
+    public AudioClip jumpSound;
+    public AudioClip jetpackSound;
+
     // Speed variables
     public float walkSpeed = 40f;
     private float runSpeed = 0f;
@@ -45,21 +50,25 @@ public class playermovement : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);
+            AudioSource.PlayClipAtPoint(jumpSound, transform.position);
         }
         if (Input.GetButtonDown("Jetpack"))
         {
             jumpJetpack = true;
             animator.SetBool("IsJetpacking", true);
+            AudioSource.PlayClipAtPoint(jetpackSound, transform.position);
         }
         if (Input.GetButtonDown("Run"))
         {
             runSpeed = 40f;
             animator.SetBool("IsDashing", true);
+            dashSound.Play();
         }
         else if (Input.GetButtonUp("Run"))
         {
             runSpeed = 0f;
             animator.SetBool("IsDashing", false);
+            dashSound.Stop();
         }
         if (health <= 0)
         {

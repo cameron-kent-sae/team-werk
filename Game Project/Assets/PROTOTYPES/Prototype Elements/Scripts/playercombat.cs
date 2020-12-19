@@ -11,6 +11,8 @@ public class playercombat : MonoBehaviour
     public int attackDamage = 100;
     public LayerMask enemyLayers;
 
+    public AudioClip attackSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,7 @@ public class playercombat : MonoBehaviour
         if (Input.GetButtonDown("attack"))
         {
             Attack();
+            AudioSource.PlayClipAtPoint(attackSound, transform.position);
             Debug.Log("attack!");
         }
     }
