@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1654387554
 Transform:
   m_ObjectHideFlags: 0
@@ -411,6 +411,7 @@ MonoBehaviour:
   dashSound: {fileID: 6472738354733693388}
   jumpSound: {fileID: 8300000, guid: 8a98db1b4fe0f484faa3f5792b4e10a5, type: 3}
   jetpackSound: {fileID: 8300000, guid: b44041b44c568fb4bb562330107bd315, type: 3}
+  dead: {fileID: 8300000, guid: 305bdd1c04076c94fb0706f098840c55, type: 3}
   walkSpeed: 20
 --- !u!114 &2335294878420318500
 MonoBehaviour:
@@ -609,7 +610,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a2e3d01c480fa4e4e9b3b9f0872b00ed, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.08
   m_Pitch: 1
   Loop: 1
   Mute: 0
