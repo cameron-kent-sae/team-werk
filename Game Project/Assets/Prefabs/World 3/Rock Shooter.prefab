@@ -179,7 +179,7 @@ MonoBehaviour:
   bullet: {fileID: 2964808246668771916, guid: fe4b18655b295884d9b4bb4270949c39, type: 3}
   animator: {fileID: 5409593366328231946}
   bulletDelay: 3
-  fromRight: 1
+  fromRight: 0
   shoot: 1
 --- !u!114 &8927460609956372706
 MonoBehaviour:
@@ -234,7 +234,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7e930af3b9dc75040993fdaedd3b08ee, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.05
+  m_Volume: 0.1
   m_Pitch: 0.3
   Loop: 0
   Mute: 0
@@ -242,8 +242,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 3.44
-  MaxDistance: 4.14
+  MinDistance: 2.46
+  MaxDistance: 2.6058
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0

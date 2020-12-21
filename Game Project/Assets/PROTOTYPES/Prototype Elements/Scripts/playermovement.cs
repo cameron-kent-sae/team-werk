@@ -55,14 +55,14 @@ public class playermovement : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);
-            AudioSource.PlayClipAtPoint(jumpSound, transform.position,0.1f);
+            AudioSource.PlayClipAtPoint(jumpSound, transform.position,0.3f);
             
         }
         if (Input.GetButtonDown("Jetpack"))
         {
             jumpJetpack = true;
             animator.SetBool("IsJetpacking", true);
-            AudioSource.PlayClipAtPoint(jetpackSound, transform.position, 0.1f);
+            AudioSource.PlayClipAtPoint(jetpackSound, transform.position, 0.5f);
         }
         if (Input.GetButtonDown("Run"))
         {
@@ -111,7 +111,7 @@ public class playermovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Damage") || other.gameObject.CompareTag("AI"))
         {
-            AudioSource.PlayClipAtPoint(dead, transform.position, 0.1f);
+            AudioSource.PlayClipAtPoint(dead, transform.position, 0.3f);
             animator.SetBool("IsDead", true);
             health -= 1;
             lifeCounter.LoseLife();

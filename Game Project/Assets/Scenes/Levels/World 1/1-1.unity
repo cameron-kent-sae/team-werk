@@ -625,8 +625,8 @@ Tilemap:
   - first: {x: -17, y: -10, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3144,7 +3144,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 24
+  - m_RefCount: 23
     m_Data: {fileID: 11400000, guid: 2d0fa309d92fc4641899fb7754118858, type: 2}
   - m_RefCount: 30
     m_Data: {fileID: 11400000, guid: 486835a3899584a4db410f449c9f855e, type: 2}
@@ -3174,7 +3174,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 2478dd3384acccb4083251efc83252e3, type: 2}
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 2f32c06c83ebc2f438981515076ece3e, type: 2}
-  - m_RefCount: 23
+  - m_RefCount: 24
     m_Data: {fileID: 11400000, guid: b608247d15da34b409eecbd4c6d69a36, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7c63d44dcb6e0f646b2fd8fb4e33f93e, type: 2}
@@ -3191,7 +3191,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 50282a127ee52b741b1e66cf1203a058, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 24
+  - m_RefCount: 23
     m_Data: {fileID: -480510328736036094, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
   - m_RefCount: 30
@@ -3234,7 +3234,7 @@ Tilemap:
   - m_RefCount: 17
     m_Data: {fileID: -7408303635988867014, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
-  - m_RefCount: 23
+  - m_RefCount: 24
     m_Data: {fileID: -5057686630942552155, guid: 47b18f06d444ba9449cb52ea0fe58c0c,
       type: 3}
   - m_RefCount: 5
@@ -3422,12 +3422,6 @@ PrefabInstance:
 --- !u!4 &63657556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2379644805547859908, guid: 81f994168b389cf4ba6b324934164226,
-    type: 3}
-  m_PrefabInstance: {fileID: 699722343}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &63657559 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2379644805547859910, guid: 81f994168b389cf4ba6b324934164226,
     type: 3}
   m_PrefabInstance: {fileID: 699722343}
   m_PrefabAsset: {fileID: 0}
@@ -4264,15 +4258,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2379644805547859911, guid: 81f994168b389cf4ba6b324934164226,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 63657559}
     - target: {fileID: 2379644805547859913, guid: 81f994168b389cf4ba6b324934164226,
         type: 3}
       propertyPath: m_Name
       value: Spite_Timed World1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379644805547859913, guid: 81f994168b389cf4ba6b324934164226,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81f994168b389cf4ba6b324934164226, type: 3}
@@ -6896,7 +6890,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126075239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.596668, y: -9.335077, z: -7.1972046}
+  m_LocalPosition: {x: -6.3722477, y: -9.327986, z: -7.1972046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1747687454}
@@ -6978,7 +6972,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f75b607821ec7544f97e0956b59be325, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.03
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7197,6 +7191,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spite_Timed World1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686535052226863314, guid: 81f994168b389cf4ba6b324934164226,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81f994168b389cf4ba6b324934164226, type: 3}

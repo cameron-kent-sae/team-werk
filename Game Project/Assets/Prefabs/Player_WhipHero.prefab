@@ -402,6 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f73967c4ad1059844811e6ccc52a0bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifeCounter: {fileID: 0}
   controller: {fileID: 15730445659989583}
   grappleRope: {fileID: 2335294878420318500}
   animator: {fileID: 6977301778682862179}
@@ -610,7 +611,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a2e3d01c480fa4e4e9b3b9f0872b00ed, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.08
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
