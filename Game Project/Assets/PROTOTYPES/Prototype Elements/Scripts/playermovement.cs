@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class playermovement : MonoBehaviour
 {
+
+    //Life manager
+    public LifeCounter lifeCounter;
+
     // Calls controller script
     public CharacterController2D controller;
     public grappler grappleRope;
@@ -124,6 +128,7 @@ public class playermovement : MonoBehaviour
     //when the player die, wait a sec and reload the scene
     IEnumerator Dead()
     {
+        lifeCounter.LoseLife();
         yield return new WaitForSeconds(1);
         Application.LoadLevel(Application.loadedLevel); 
     }
