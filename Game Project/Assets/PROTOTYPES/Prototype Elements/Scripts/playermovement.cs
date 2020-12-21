@@ -129,7 +129,7 @@ public class playermovement : MonoBehaviour
     //when the player die, wait a sec and reload the scene
     IEnumerator Dead()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         Application.LoadLevel(Application.loadedLevel); 
     }
 }
