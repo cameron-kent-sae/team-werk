@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class playermovement : MonoBehaviour
 {
-
     //Life manager
     public LifeCounter lifeCounter;
 
@@ -15,7 +14,6 @@ public class playermovement : MonoBehaviour
 
     public Animator animator;
     
-
     // Creating transform points
     public Transform grapplePoint;
     public Transform spawn;
@@ -40,6 +38,8 @@ public class playermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        lifeCounter = FindObjectOfType<LifeCounter>();
+
         grappleRope.enabled = false;
     }
 
@@ -114,7 +114,8 @@ public class playermovement : MonoBehaviour
             AudioSource.PlayClipAtPoint(dead, transform.position, 0.1f);
             animator.SetBool("IsDead", true);
             health -= 1;
-            
+            lifeCounter.LoseLife();
+
         }
     }
 
@@ -128,7 +129,6 @@ public class playermovement : MonoBehaviour
     //when the player die, wait a sec and reload the scene
     IEnumerator Dead()
     {
-        lifeCounter.LoseLife();
         yield return new WaitForSeconds(1);
         Application.LoadLevel(Application.loadedLevel); 
     }

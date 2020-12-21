@@ -15,6 +15,7 @@ public class LifeCounter : MonoBehaviour
 
     private void Update()
     {
+        playerLives = GameplayData.Lives;
         UpdateLifeDisplay();
     }
 

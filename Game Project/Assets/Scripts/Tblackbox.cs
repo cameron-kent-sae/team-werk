@@ -7,6 +7,11 @@ public class Tblackbox : MonoBehaviour
     //Life manager
     public LifeCounter lifeCounter;
 
+    private void Start()
+    {
+        lifeCounter = FindObjectOfType<LifeCounter>();
+    }
+
     //When player collide, active the portal object
     void OnTriggerEnter2D(Collider2D other)
     {
